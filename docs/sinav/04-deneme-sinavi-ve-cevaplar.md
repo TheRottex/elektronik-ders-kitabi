@@ -1,4 +1,4 @@
-﻿# Deneme Sınavı ve Cevap Anahtarı
+# Deneme Sınavı ve Cevap Anahtarı
 
 Gerçek sınav değildir; 2. Senaryo dağılımına göre hazırlandı (Elektronik 8 + Mikrodenetleyici 5 = 13 soru). Önce cevaplara bakmadan çöz.
 
