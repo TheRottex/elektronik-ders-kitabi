@@ -20,6 +20,11 @@ CHAPTERS = [
     ("Mikrodenetleyici", "docs/mikrodenetleyici/03-diger-kapilar.md"),
     ("Mikrodenetleyici", "docs/mikrodenetleyici/04-mikrodenetleyici-uygulama.md"),
     ("Mikrodenetleyici", "docs/mikrodenetleyici/05-alistirmalar.md"),
+    ("Sınava Odaklı Çalışma", "docs/sinav/00-sinav-haritasi.md"),
+    ("Sınava Odaklı Çalışma", "docs/sinav/01-elektronik-sinav-calismasi.md"),
+    ("Sınava Odaklı Çalışma", "docs/sinav/02-mikro-sayi-sistemleri-sinav.md"),
+    ("Sınava Odaklı Çalışma", "docs/sinav/03-mikro-lojik-entegre-sinav.md"),
+    ("Sınava Odaklı Çalışma", "docs/sinav/04-deneme-sinavi-ve-cevaplar.md"),
 ]
 LINK_PATTERN = re.compile(r"(!?\[[^\]]*\]\()([^)]+)(\))")
 

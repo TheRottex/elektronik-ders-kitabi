@@ -1,6 +1,6 @@
 # NOT, NAND, NOR, XOR ve XNOR Kapıları
 
-**Kapsam notu:** PDF 37, AND/OR/NOT kapılarını temel kapılar olarak adlandırır. PDF 1–40 içinde NAND, NOR, XOR ve XNOR'un ayrıntılı anlatımı yoktur; bunlar tamamlayıcı dijital mantık bilgisidir.
+**Kapsam notu:** PDF 37, AND/OR/NOT kapılarını temel kapılar olarak adlandırır. NAND (PDF s.42), NOR (s.43), XOR/ÖZEL VEYA (s.44–45, 4070 ile uygulama) ve XNOR/ÖZEL VEYA DEĞİL (s.46) kaynakta da vardır; bu bölüm onları ek görsel ve örneklerle açıklar.
 
 `A̅` veya `NOT A`, A'nın tersidir: `A=0` ise `A̅=1`; `A=1` ise `A̅=0`.
 

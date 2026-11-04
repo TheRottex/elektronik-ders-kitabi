@@ -19,6 +19,11 @@
 - [Mikrodenetleyici: NOT, NAND, NOR, XOR ve XNOR Kapıları](#chapter-13)
 - [Mikrodenetleyici: Mikrodenetleyici, HIGH/LOW, Buton ve LED](#chapter-14)
 - [Mikrodenetleyici: Sayı Sistemleri ve Lojik Kapılar — Alıştırmalar](#chapter-15)
+- [Sınava Odaklı Çalışma: Sınava Odaklı Çalışma — 2. Senaryo Yol Haritası](#chapter-16)
+- [Sınava Odaklı Çalışma: Elektronik Uygulamaları — Sınav Çalışması](#chapter-17)
+- [Sınava Odaklı Çalışma: Mikrodenetleyici — Sayı Sistemleri ve Sayısal İşlemler (3 soru)](#chapter-18)
+- [Sınava Odaklı Çalışma: Mikrodenetleyici — Lojik Kapılar ve Entegre ile Devre Kurma (2 soru)](#chapter-19)
+- [Sınava Odaklı Çalışma: Deneme Sınavı ve Cevap Anahtarı](#chapter-20)
 
 
 ---
@@ -1005,7 +1010,7 @@ Bir makine için `A=kapak kapalı`, `B=başlat düğmesi basılı`, `Q=motor etk
 
 # NOT, NAND, NOR, XOR ve XNOR Kapıları
 
-**Kapsam notu:** PDF 37, AND/OR/NOT kapılarını temel kapılar olarak adlandırır. PDF 1–40 içinde NAND, NOR, XOR ve XNOR'un ayrıntılı anlatımı yoktur; bunlar tamamlayıcı dijital mantık bilgisidir.
+**Kapsam notu:** PDF 37, AND/OR/NOT kapılarını temel kapılar olarak adlandırır. NAND (PDF s.42), NOR (s.43), XOR/ÖZEL VEYA (s.44–45, 4070 ile uygulama) ve XNOR/ÖZEL VEYA DEĞİL (s.46) kaynakta da vardır; bu bölüm onları ek görsel ve örneklerle açıklar.
 
 `A̅` veya `NOT A`, A'nın tersidir: `A=0` ise `A̅=1`; `A=1` ise `A̅=0`.
 
@@ -1178,3 +1183,479 @@ AND'de iki giriş birlikte 1 olmalı. OR'da en az bir giriş 1 olması yeterli.
 ### C
 
 Yalnız son satırda üç girişin hepsi 1; dolayısıyla yalnız `111` satırının AND çıkışı 1. Diğer yedi satırın çıkışı 0.
+
+
+---
+
+<a id="chapter-16"></a>
+
+# Sınava Odaklı Çalışma — 2. Senaryo Yol Haritası
+
+Bu bölüm, iki ders için verilen **2. Senaryo** sınav tablolarına göre hazırlandı. Amaç: sınavda soru çıkacak konulardan **atlanmış ya da yüzeysel kalmış** yerleri kapatmak ve her konuda "çıkabilecek soru tipini" çözerek görmek.
+
+## Sınav dağılımı
+
+### Elektronik Uygulamaları — 8 soru
+
+| Konu | Soru sayısı | Çalışma dosyası |
+|------|:-----------:|-----------------|
+| Direnç | 0 | (sınavda yok; yine de [direnç özeti](docs/elektronik/02-devre-elemanlari.md) seri/paralel için gerekir) |
+| Kondansatör | 1 | [Elektronik sınav çalışması §1](docs/sinav/01-elektronik-sinav-calismasi.md) |
+| Bobin | 1 | [§2](docs/sinav/01-elektronik-sinav-calismasi.md) |
+| Diyot | 1 | [§3](docs/sinav/01-elektronik-sinav-calismasi.md) |
+| Transistör | 1 | [§4](docs/sinav/01-elektronik-sinav-calismasi.md) |
+| Transformatör | 1 | [§5](docs/sinav/01-elektronik-sinav-calismasi.md) |
+| Seri devre | 1 | [§6](docs/sinav/01-elektronik-sinav-calismasi.md) |
+| Paralel devre | 1 | [§7](docs/sinav/01-elektronik-sinav-calismasi.md) |
+| Seri-paralel (karışık) devre | 1 | [§8](docs/sinav/01-elektronik-sinav-calismasi.md) |
+
+### Mikrodenetleyici — 5 soru
+
+| Konu | Soru sayısı | Çalışma dosyası |
+|------|:-----------:|-----------------|
+| Sayı sistemleri ile sayısal işlemler | 3 | [Sayı sistemleri sınav çalışması](docs/sinav/02-mikro-sayi-sistemleri-sinav.md) |
+| Temel lojik kapılarla mantıksal işlemler | 1 | [Lojik sınav çalışması §1–§4](docs/sinav/03-mikro-lojik-entegre-sinav.md) |
+| Temel lojik entegrelerle devre kurma | 1 | [Lojik sınav çalışması §5–§7](docs/sinav/03-mikro-lojik-entegre-sinav.md) |
+
+## Önceki içerikte eksik bulunan yerler (bu çalışmayla kapatıldı)
+
+| Eksik | Nerede kapatıldı |
+|-------|------------------|
+| İkili çıkarma (borç alma), çarpma, bölme | Sayı sistemleri §2 |
+| Sekizlik (octal) ve onaltılık (hex) toplama/çıkarma | Sayı sistemleri §3–§4 |
+| Onluk → onaltılık, onaltılık → onluk, sekizlik ↔ ikili | Sayı sistemleri §5–§6 |
+| Boole kuralları, De Morgan, ifade ↔ devre | Lojik §1–§4 |
+| Entegre seçimi (7408/7432…), pin numarası, besleme, breadboard | Lojik §5–§7 |
+| NAND/NOR/XOR "PDF'de yok" notu yanlıştı (PDF s.42–46'da var) | [03-diger-kapilar.md](docs/mikrodenetleyici/03-diger-kapilar.md) düzeltildi |
+| Kondansatör kodu, elektrolitik kutup, bobin türleri, diyot/LED direnci, transistör testi, trafo türleri | Elektronik §1–§5 |
+| Seri/paralel/karışık için tek sayfada çözüm şablonu ve doğrulama | Elektronik §6–§8 |
+
+## 5 günlük çalışma planı
+
+| Gün | Yap | Ölçüt |
+|-----|-----|-------|
+| 1 | Sayı sistemleri §1–§3 + alıştırmalar | Kâğıtta ikili/oktal/hex toplama-çıkarma yapabiliyorum |
+| 2 | Sayı sistemleri §4–§6 (dönüşümler) | 8 dönüşüm sorusunu 10 dakikada çözüyorum |
+| 3 | Lojik §1–§7 | Verilen ifadeden devre ve entegre listesi çıkarıyorum |
+| 4 | Elektronik §1–§5 (elemanlar) | Eleman fotoğrafı/sembolü/özelliği eşleştirebiliyorum |
+| 5 | Elektronik §6–§8 + [deneme sınavı](docs/sinav/04-deneme-sinavi-ve-cevaplar.md) | Deneme sınavında en az 10/13 |
+
+> Not: Sınav kazanımları tablodaki konu başlıklarıdır; soru **tipleri** kaynak kitabın "Ölçme ve Değerlendirme" sayfalarından (Doğru/Yanlış, boşluk doldurma, 5 şıklı test) ve uygulama bölümlerinden esinlenerek hazırlandı. Gerçek sınav soruları değildir.
+
+
+---
+
+<a id="chapter-17"></a>
+
+# Elektronik Uygulamaları — Sınav Çalışması
+
+Kaynak: Elektronik Uygulamaları PDF s.26–69. "Ek" etiketli formüller kitapta açık yazmayabilir; standart bilgidir.
+
+## 1. Kondansatör (1 soru)
+
+**Ne işe yarar?** Elektrik yükü depolar. Birimi **farad (F)**; pratikte µF, nF, pF kullanılır.
+
+| Dönüşüm | Değer |
+|---------|-------|
+| 1 µF | 1000 nF |
+| 1 nF | 1000 pF |
+| 1 µF | 1 000 000 pF |
+
+**Üç haneli kod okuma:** ilk iki rakam değer, üçüncü rakam sıfır sayısıdır; sonuç **pikofarad (pF)** olur.
+
+| Kod | Hesap | Sonuç |
+|-----|-------|-------|
+| 104 | 10 × 10⁴ pF = 100 000 pF | 100 nF = 0,1 µF |
+| 105 | 10 × 10⁵ pF = 1 000 000 pF | **1 µF** |
+| 103 | 10 × 10³ pF | 10 nF |
+| 102 | 10 × 10² pF | 1 nF (1000 pF) |
+| 473 | 47 × 10³ pF | 47 nF |
+| 331 | 33 × 10¹ pF | 330 pF |
+
+**Kutuplu mu?** Elektrolitik kondansatörlerin eksi (−) bacağı işaretlidir; ters bağlanırsa zarar görür. Üzerinde yazan **çalışma gerilimi** devre geriliminden büyük olmalıdır. Seramik, mika, film kondansatörler kutupsuzdur. Mika kondansatörde yalıtkan (dielektrik) **mika**dır.
+
+**Örnek (kitaptaki 13. soru):** Üzerinde 105 yazan kondansatör → **1 µF**.
+
+## 2. Bobin (1 soru)
+
+- Birimi **henri (H)**, pratikte mH ve µH. Sarılmış telden oluşur.
+- **DC'de** (yalnızca bobinin direnci kadar) akıma neredeyse kısa devre gibi davranır; **AC'de** frekans arttıkça akıma karşı koyar.
+- Ek formül: bobinin AC direnci `XL = 2·π·f·L` (Ω). Örnek: f = 50 Hz, L = 0,5 H → XL = 2 × 3,14 × 50 × 0,5 ≈ **157 Ω**.
+- Çekirdeğe göre çeşitler: hava çekirdekli, ferit çekirdekli, demir çekirdekli, toroid, SMD.
+- Kullanım: filtre, röle, trafo, motor sargısı, osilatör.
+- LCR metre ile bobin (L), kondansatör (C), direnç (R) ölçülür. **Avometre (multimetre) bu iş için değil**, akım–gerilim–direnç içindir (kitap D/Y sorusu 2: yanlış).
+
+## 3. Diyot (1 soru)
+
+**Yapı:** P ve N tipi maddenin birleşimi, **iki bacaklı**: anot (A, +) ve katot (K, −, çizgili uç). Akımı yalnızca anottan katoda geçirir.
+
+| Tür | Akılda kalacak özellik |
+|-----|-----------------------|
+| Kristal (doğrultucu) | AC'yi DC'ye çevirir |
+| Zener | Ters yönde belli gerilimde iletir, gerilim sabitler |
+| Şotki (Schottky) | Hızlı, düşük gerilim düşümlü; sembolde çubuk "S" biçiminde |
+| LED | Doğru kutuplanınca ışık verir; IR LED görünmez **kızılötesi** ışık yayar |
+| Varikap | Ters gerilime göre kapasitesi değişir |
+| Köprü diyot | 4 diyot tek kılıfta; AC giriş uçları ~ ~, DC çıkış + − |
+
+**LED seri direnci:** `Rs = (Vcc − Vd) / Id`. Örnek: Vcc = 5 V, LED gerilimi Vd = 2 V, Id = 15 mA → Rs = 3 V / 0,015 A = **200 Ω** → bir üst standart değer **220 Ω** seçilir.
+
+**Sağlamlık testi (dijital multimetre, diyot kademesi):** kırmızı prob anotta, siyah prob katotta iken bir değer (yaklaşık 500–800) görünür; ters bağlanınca **"1" / OL** görünür. İki yönde de değer → diyot kısa devre; iki yönde de "1" → açık devre (arızalı).
+
+## 4. Transistör (1 soru)
+
+- Üç bacak: **kolektör (C), beyz (B), emiter (E)**. İki ana tür BJT ve FET. BJT'de **NPN** ve **PNP** vardır.
+- NPN: iki N arasında ince P (beyz). PNP: iki P arasında ince N (beyz).
+- Beyz-emiter **doğru**, beyz-kolektör **ters** kutuplanırsa iletime geçer.
+  - NPN: beyz ve kolektör **+**, emiter **−**.
+  - PNP: beyz ve kolektör **−**, emiter **+**.
+- **Anahtar olarak:** *doyum* → C–E arası gerilim ≈ 0 V, akım maksimum (anahtar kapalı); *kesim* → B–E gerilimi 0 V, kolektör akımı 0 (anahtar açık).
+- **Sağlamlık ve uç bulma (diyot kademesi):** Altı ölçümde yalnız ikisinde değer okunur. Kırmızı prob **ortak uçtaysa** ve değer veriyorsa ortak uç beyz ve tip **NPN**'dir (siyah prob ortaksa PNP). Küçük değer → **kolektör**, büyük değer → **emiter**.
+  - Kitaptaki örnek: kırmızı 2 – siyah 3 = 513, kırmızı 2 – siyah 1 = 510 → 2 = beyz, NPN; 1 (510, küçük) = kolektör, 3 (513, büyük) = emiter.
+
+## 5. Transformatör (1 soru)
+
+- Yapı: **iki bobin (primer, sekonder) ve nüve**. Primere AC verilince nüvede değişen manyetik akı oluşur, sekonderde gerilim indüklenir. Yalnızca **AC'de** çalışır.
+- Ek formül: `Vp / Vs = Np / Ns`. Örnek: 220 V → 12 V, Np = 1100 sarım → Ns = 1100 × 12 / 220 = **60 sarım**.
+
+| Tür | Özellik |
+|-----|---------|
+| Alçaltıcı | Vs < Vp; adaptörlerde en yaygın |
+| Yükseltici | Vs > Vp; eski tüplü TV |
+| Oto trafosu | Tek sargı hem primer hem sekonder; küçük, verimli |
+| Yalıtım (izolasyon) | Gerilimi değiştirmez (E1 = E2), devreleri ayırır |
+| Toroidal | Halka nüve, yüksek verim, düşük frekans |
+| Yüksek frekans | 10 kHz üzeri, anahtarlamalı güç kaynakları |
+| Hat trafosu | Ses sistemlerinde, hoparlör gücüne göre seçilir |
+
+## 6. Seri devre (1 soru)
+
+Kurallar: **akım aynı**, gerilimler paylaşılır, dirençler toplanır.
+
+`RT = R1 + R2 + R3` · `I = V / RT` · `VRn = I × Rn` · `V = VR1 + VR2 + …`
+
+**Örnek:** V = 12 V, R1 = 100 Ω, R2 = 220 Ω, R3 = 680 Ω
+1. RT = 100 + 220 + 680 = 1000 Ω
+2. I = 12 / 1000 = 0,012 A = **12 mA**
+3. VR1 = 1,2 V, VR2 = 2,64 V, VR3 = 8,16 V
+4. Kontrol: 1,2 + 2,64 + 8,16 = 12 V ✔
+
+Ölçü aleti: **ampermetre seri**, voltmetre **paralel** bağlanır.
+
+## 7. Paralel devre (1 soru)
+
+Kurallar: **gerilim aynı**, akımlar paylaşılır, toplam direnç **küçülür** (en küçük dirençten de küçük).
+
+`1/RT = 1/R1 + 1/R2` · iki direnç için `RT = (R1 × R2)/(R1 + R2)` · `In = V / Rn` · `I = I1 + I2`
+
+**Örnek:** V = 12 V, R1 = 400 Ω, R2 = 600 Ω
+1. RT = 400 × 600 / 1000 = **240 Ω**
+2. I1 = 12/400 = 30 mA, I2 = 12/600 = 20 mA
+3. I = 50 mA; kontrol: 12 / 240 = 50 mA ✔
+
+Aynı değerli n direnç: RT = R / n.
+
+## 8. Seri-paralel (karışık) devre (1 soru)
+
+**Yöntem:** önce paralel grubu tek dirence indir → devre seri olur → akımı bul → geri dön.
+
+**Örnek:** V = 12 V; R1 = 200 Ω seri, ardından R2 = 300 Ω ∥ R3 = 600 Ω
+1. R23 = 300 × 600 / 900 = 200 Ω
+2. RT = 200 + 200 = 400 Ω
+3. I = 12 / 400 = 30 mA (R1'den geçen)
+4. VR1 = 0,03 × 200 = 6 V; paralel grupta kalan **6 V**
+5. I2 = 6/300 = 20 mA, I3 = 6/600 = 10 mA; toplam 30 mA ✔
+
+Çapraz bağlı görünen devreleri sadeleştirme için bkz. [Köprü ve yıldız-üçgen](docs/elektronik/05-kopru-yildiz-ucgen.md). Devre çizimi: seri/paralel şemalar için [Seri-paralel bölümü](docs/elektronik/04-seri-paralel-karisik.md).
+
+## 9. Kendin çöz
+
+1. 473 kodlu kondansatör kaç nF'tır? 2. Vcc = 9 V, LED 2 V, 20 mA: Rs = ? 3. 5 V'a 100 Ω ve 400 Ω seri bağlı: I ve VR2 ? 4. 90 Ω ∥ 90 Ω ∥ 90 Ω = ? 5. 12 V, R1 = 100 Ω seri, (200 Ω ∥ 200 Ω): I = ?
+
+**Cevaplar:** 1) 47 nF. 2) 7/0,02 = 350 Ω (360 Ω veya 390 Ω seçilir). 3) RT = 500, I = 10 mA, VR2 = 4 V. 4) 30 Ω. 5) Paralel 100 Ω, RT = 200 Ω, I = 60 mA.
+
+
+---
+
+<a id="chapter-18"></a>
+
+# Mikrodenetleyici — Sayı Sistemleri ve Sayısal İşlemler (3 soru)
+
+Kaynak: Mikrodenetleyici PDF s.18–45. Sistemler: **ikilik (2)**, **sekizlik (8)**, **onluk (10)**, **onaltılık (16)**. Onaltılıkta rakamlar: 0–9, A=10, B=11, C=12, D=13, E=14, F=15.
+
+## 1. Temel kural: basamak ağırlıkları
+
+- İkilik: …, 32, 16, 8, 4, 2, 1 (2'nin kuvvetleri)
+- Sekizlik: …, 512, 64, 8, 1
+- Onaltılık: …, 4096, 256, 16, 1
+
+Taban kadar değere ulaşınca o basamak 0 olur, **1 elde** soldaki basamağa gider (ikilikte 1+1 = 10, sekizlikte 7+1 = 10, onaltılıkta F+1 = 10).
+
+## 2. İkilik işlemler
+
+### Toplama
+Kural: 0+0=0 · 0+1=1 · 1+1=**10** (0 yaz, 1 elde) · 1+1+1=**11** (1 yaz, 1 elde)
+
+**1110 + 0101**
+```
+  1 1 1 0     (elde: soldan sağa 1,1,1 oluşur)
++ 0 1 0 1
+---------
+1 0 0 1 1
+```
+Sağdan: 0+1=1 · 1+0=1 · 1+1=0 elde 1 · 1+0+elde 1=0 elde 1 · elde 1 → **10011** (14+5=19 ✔).
+
+### Çıkarma (borç alma)
+Kural: 0−0=0 · 1−0=1 · 1−1=0 · **0−1 → soldan borç al:** 10−1=1, soldaki basamak 1 azalır.
+
+**1001 − 0111**: bit0: 1−1=0 · bit1: 0−1 olmaz, soldan borç gerekir; bit2 de 0 olduğundan borç bit3'ten gelir (bit3: 1→0, bit2: 0→10, bit2 de bit1'e 1 verir, kendinde 1 kalır) → bit1: 10−1=1 · bit2: 1−1=0 · bit3: 0−0=0 → **0010**. Doğrulama: 9−7=2 ✔.
+**101 − 10 = 011** (5−2=3 ✔).
+
+### Çarpma
+Onluktaki gibi: ×0 → 0, ×1 → sayının kendisi, her satır bir basamak sola kaydırılır, sonra toplanır.
+**10 × 10 = 100** (2×2=4 ✔). **110 × 11**: 110 + 1100 = **10010** (6×3=18 ✔).
+
+### Bölme
+Onluktaki uzun bölme gibi; 1 sığıyorsa 1, sığmıyorsa 0 yazılır.
+**10100 ÷ 10 = 1010** (20÷2=10 ✔). **11011 ÷ 11 = 1001** (27÷3=9 ✔).
+
+## 3. Sekizlik işlemler
+
+Toplam 8 veya üzeriyse 8'e böl: kalan yazılır, bölüm elde olur.
+
+**725 + 534**: 5+4=9=8+1 → yaz 1 elde 1 · 2+3+1=6 · 7+5=12=8+4 → yaz 4 elde 1 → **1461₈**.
+
+**704 − 651**: 4−1=3 · 0−5 → borç, 8+0−5=3 · 7−1(borç)−6=0 → **033₈**.
+
+## 4. Onaltılık işlemler
+
+**79A + 5C8**: A+8=10+8=18=16+2 → yaz 2 elde 1 · 9+C+1=9+12+1=22=16+6 → yaz 6 elde 1 · 7+5+1=13=D → **D62₁₆**.
+
+**AD8 − 7E3**: 8−3=5 · D−E: 13−14 → borç, 16+13−14=15=F · A−1−7=10−1−7=2 → **2F5₁₆**.
+
+## 5. Dönüşümler
+
+| İstek | Yöntem |
+|-------|--------|
+| Onluk → ikilik | 2'ye art arda böl, kalanları **alttan yukarı** oku |
+| Onluk → sekizlik/onaltılık | 8'e/16'ya böl, kalanları alttan yukarı oku |
+| İkilik/sekizlik/onaltılık → onluk | Her rakamı basamak ağırlığıyla çarp, topla |
+| İkilik → sekizlik | Sağdan **3'erli** grupla |
+| İkilik → onaltılık | Sağdan **4'erli** grupla |
+| Sekizlik/onaltılık → ikilik | Her rakamı 3 / 4 bitlik karşılığa aç |
+
+**Onluk → ikilik, 35₁₀:** 35÷2=17 k1 · 17÷2=8 k1 · 8÷2=4 k0 · 4÷2=2 k0 · 2÷2=1 k0 · 1÷2=0 k1 → alttan yukarı **100011₂**.
+
+**Onluk → onaltılık, 185₁₀:** 185÷16=11 kalan 9 · 11 = B → **B9₁₆**.
+
+**Onaltılık → onluk, 7B3₁₆:** 7×256 + 11×16 + 3 = 1792 + 176 + 3 = **1971₁₀**.
+
+**İkilik → onluk, 101101₂:** 32+8+4+1 = **45₁₀**.
+
+**İkilik → onaltılık, 1110110001₂:** 0011 1011 0001 → **3B1₁₆**.
+
+**İkilik → sekizlik, 1110110001₂:** 001 110 110 001 → **1661₈**.
+
+**Onaltılık → ikilik, 1A3₁₆:** 1=0001, A=1010, 3=0011 → **110100011₂** (baştaki sıfırlar atılır).
+
+**Sekizlik → ikilik, 273₈:** 2=010, 7=111, 3=011 → **10111011₂**.
+
+## 6. Kitaptaki dönüşüm sorularının cevapları
+
+| Soru | Cevap |
+|------|-------|
+| 35₁₀, 51₁₀, 64₁₀ → ikilik | 100011, 110011, 1000000 |
+| 38₁₀, 185₁₀, 216₁₀ → onaltılık | 26, B9, D8 |
+| 101101₂, 11101010₂, 101011₂ → onluk | 45, 234, 43 |
+| 7B3₁₆, 26EA₁₆, 15B₁₆ → onluk | 1971, 9962, 347 |
+| 1A3₁₆, F4C6₁₆, A5D7₁₆ → ikilik | 110100011, 1111010011000110, 1010010111010111 |
+| 1110110001₂, 1110110001000011₂, 111110001011011₂ → onaltılık | 3B1, EC43, 7C5B |
+| 273₈, 654₈ → ikilik | 10111011, 110101100 |
+| 1110110001₂, 111101100₂ → sekizlik | 1661, 754 |
+
+## 7. "Sıra sizde" işlemlerinin cevapları
+
+| İşlem | Sonuç |
+|-------|-------|
+| 1101 + 1110 | 11011 |
+| 10001 − 01111 | 10 |
+| 110 × 11 | 10010 |
+| 11011 ÷ 11 | 1001 |
+| 657₈ + 433₈ | 1312₈ |
+| 523₈ − 345₈ | 156₈ |
+| EFC₁₆ + 975₁₆ | 1871₁₆ |
+| B39₁₆ − 34A₁₆ | 7EF₁₆ |
+
+## 8. Sık yapılan hatalar
+
+- Onluk **12**'yi "12 tane 1" sanmak: 12₁₀ = 1100₂.
+- İkili toplamada 1+1'i "2" yazmak: doğrusu **10**.
+- Onluk → ikilide kalanları yukarıdan aşağı okumak: **alttan yukarı** okunur.
+- Hex'te A–F değerlerini unutmak: B = 11, E = 14.
+- Gruplamayı soldan yapmak: ikilik→hex/oktal dönüşümünde **sağdan** gruplanır, eksik gruplar soldan 0 ile tamamlanır.
+
+
+---
+
+<a id="chapter-19"></a>
+
+# Mikrodenetleyici — Lojik Kapılar ve Entegre ile Devre Kurma (2 soru)
+
+Kaynak: Mikrodenetleyici PDF s.38–70. Giriş: A, B, C…; çıkış: Q. `·` VE (AND), `+` VEYA (OR), `'` (üstü çizgili) DEĞİL (NOT).
+
+## 1. Kapı özeti (hepsi sınavlık)
+
+| Kapı | İfade | Çıkış 1 olur… |
+|------|-------|---------------|
+| NOT | Q = A' | giriş 0 iken |
+| AND | Q = A·B | **iki giriş de 1** |
+| OR | Q = A+B | **en az biri 1** |
+| NAND | Q = (A·B)' | AND'in tersi: yalnızca 11'de 0 |
+| NOR | Q = (A+B)' | OR'un tersi: yalnızca 00'da 1 |
+| XOR | Q = A⊕B | girişler **farklı** |
+| XNOR | Q = (A⊕B)' | girişler **aynı** |
+
+| A B | AND | OR | NAND | NOR | XOR | XNOR |
+|:---:|:---:|:--:|:----:|:---:|:---:|:----:|
+| 0 0 | 0 | 0 | 1 | 1 | 0 | 1 |
+| 0 1 | 0 | 1 | 1 | 0 | 1 | 0 |
+| 1 0 | 0 | 1 | 1 | 0 | 1 | 0 |
+| 1 1 | 1 | 1 | 0 | 0 | 0 | 1 |
+
+## 2. Boole kuralları
+
+| Kural | İfade |
+|-------|-------|
+| VE ile 0 / 1 | A·0 = 0 · A·1 = A |
+| VEYA ile 0 / 1 | A+0 = A · A+1 = 1 |
+| Aynı değişken | A·A = A · A+A = A |
+| Tümleyen | A·A' = 0 · A+A' = 1 |
+| Çift tersleme | (A')' = A |
+| Değişme | A·B = B·A · A+B = B+A |
+| Birleşme | (A·B)·C = A·(B·C) · (A+B)+C = A+(B+C) |
+| Dağılma | A·(B+C) = A·B + A·C · A+B·C = (A+B)(A+C) |
+| Yutma | A+A·B = A · A·(A+B) = A |
+
+## 3. De Morgan kuralları
+
+`(A·B)' = A' + B'` ve `(A+B)' = A'·B'` — "çizgiyi kır, işareti değiştir".
+
+Doğrulama (A=1, B=0): (1·0)' = 1 ; 1' + 0' = 0+1 = 1 ✔ · (1+0)' = 0 ; 1'·0' = 0·1 = 0 ✔
+
+Sadeleştirme örneği: `Q = A·B + A·B'` = A·(B+B') = A·1 = **A**.
+
+## 4. İfadeden doğruluk tablosu ve devreden ifade
+
+**Q = A + B·C** (önce VE, sonra VEYA):
+
+| A B C | B·C | Q |
+|:-----:|:---:|:-:|
+| 0 0 0 | 0 | 0 |
+| 0 0 1 | 0 | 0 |
+| 0 1 0 | 0 | 0 |
+| 0 1 1 | 1 | 1 |
+| 1 0 0 | 0 | 1 |
+| 1 0 1 | 0 | 1 |
+| 1 1 0 | 0 | 1 |
+| 1 1 1 | 1 | 1 |
+
+n girişte **2ⁿ** satır vardır (3 giriş → 8). Giriş sıralaması ikili sayma sırasıdır: 000 → 111.
+
+**Devreden ifade çıkarma:** girişten çıkışa doğru her kapının çıkışını yaz. Örn. iki AND (A·B ve C·D) bir OR'a bağlanırsa Q = A·B + C·D. İki OR (A+B ve C+D) bir AND'e bağlanırsa Q = (A+B)·(C+D).
+
+**İfadeden devre çizme:** en içteki parantezden başla; her işlem bir kapı. `Q = A·C' + A'·C` → 2 NOT, 2 AND, 1 OR (bu devre XOR işlevi görür).
+
+## 5. Lojik entegreler
+
+| Kapı | TTL (74 serisi) | CMOS (4000 serisi) | Kapı sayısı |
+|------|-----------------|--------------------|-------------|
+| NOT | 7404 | 4069 | 6 |
+| AND | 7408 | 4081 | 4 (2 girişli) |
+| OR | 7432 | 4071 | 4 |
+| NAND | 7400 | 4011 | 4 |
+| NOR | 7402 | 4001 | 4 |
+| XOR | 7486 | 4070 | 4 |
+
+- **TTL besleme:** 5 V. **CMOS (4000):** yaklaşık 3–15 V (genelde 5–12 V). 74HC serisi 5 V civarı. Pin yorumunda bu değerler kitap kullanım örneğine göredir; kesin değer için entegre veri sayfasına bakın.
+- Entegre 14 bacaklı DIP kılıf: çentik **yukarıda** tutulurken sol üstten saat yönünün tersine 1'den 14'e numaralanır. **Pin 14 = Vcc (+), Pin 7 = GND (−).**
+- 7408 / 7400 / 7432 bacakları: 1A=1, 1B=2, 1Y=3 · 2A=4, 2B=5, 2Y=6 · 3Y=8, 3A=9, 3B=10 · 4Y=11, 4A=12, 4B=13. (7402'de çıkış Y önce gelir: 1Y=1, 1A=2, 1B=3.)
+- **Kullanılmayan girişi boş bırakma:** AND/NAND için +5 V'a, OR/NOR için GND'ye bağla.
+- Girişler anahtarla verilirken **pull-down** (anahtar açıkken girişi dirençle GND'ye bağla) ya da pull-up direnci kullanılır; yoksa giriş "havada" kalır ve belirsiz okunur.
+
+## 6. Entegre seçimi: örnek
+
+**Q = A·B + C·D** için malzeme: 2 adet AND + 1 adet OR → **bir 7408** (4 AND içerir, 2'si kullanılır) + **bir 7432** (1 OR).
+**Q = (A+B)·(C+D)** için: 2 OR + 1 AND → **bir 7432** + **bir 7408**.
+**Q = A·C' + A'·C** için: 7404 (2 NOT), 7408 (2 AND), 7432 (1 OR) → toplam 3 entegre.
+
+Birden fazla kapı gerekiyorsa bir entegre içinde yeterli kapı olup olmadığına bak; yoksa ikinci bir entegre kullan.
+
+## 7. Breadboard'da devre kurma — Q = A·B + C·D
+
+Malzeme: 7408, 7432, 5 V besleme, 4'lü DIP anahtar, kırmızı LED, 470 Ω × 5 (4 giriş pull-down + 1 LED).
+Adımlar:
+1. Enerji kapalıyken entegreleri breadboard orta yarığına yerleştir.
+2. Her entegrede pin 14 → +5 V, pin 7 → GND.
+3. A, B → 7408 kapı 1 (1,2) ; C, D → kapı 2 (4,5). Çıkışlar pin 3 ve pin 6.
+4. Pin 3 → 7432 pin 1, pin 6 → 7432 pin 2; OR çıkışı pin 3.
+5. Anahtarın bir ucu +5 V'a, diğer ucu giriş ve 470 Ω ile GND'ye (anahtar açıkken 0).
+6. OR çıkışı (7432 pin 3) → 470 Ω → LED anot; LED katot → GND.
+7. Besleme ver; A=B=1 **veya** C=D=1 iken LED yanar; aksi halde söner.
+
+**Güvenlik:** besleme polaritesini kontrol et, entegre ısınıyorsa hemen enerjiyi kes, LED'i dirençsiz bağlama.
+
+## 8. Kendin çöz
+
+1. NAND kapısının 11 girişinde çıkış? 2. (A+B)' ifadesini De Morgan ile yaz. 3. Q = A·B' için tablo çıkar. 4. Q = (A+B)·C için kaç entegre ve hangileri? 5. 14 bacaklı entegrede Vcc hangi pindedir?
+
+**Cevaplar:** 1) 0. 2) A'·B'. 3) Yalnızca A=1,B=0 iken Q=1 (diğer 3 satır 0). 4) 7432 (OR) + 7408 (AND). 5) Pin 14 (GND pin 7).
+
+
+---
+
+<a id="chapter-20"></a>
+
+# Deneme Sınavı ve Cevap Anahtarı
+
+Gerçek sınav değildir; 2. Senaryo dağılımına göre hazırlandı (Elektronik 8 + Mikrodenetleyici 5 = 13 soru). Önce cevaplara bakmadan çöz.
+
+## Elektronik Uygulamaları
+
+1. Üzerinde **104** yazan kondansatörün değeri nedir? A) 10 nF B) 100 nF C) 104 pF D) 1 µF E) 0,01 nF
+2. Bobinin birimi ve harfi? A) F – C B) Ω – R C) H – L D) V – U E) A – I
+3. Bir LED 5 V ile 2 V / 15 mA'de çalışacaksa seri direnç yaklaşık kaç Ω'dur? A) 100 B) 200 C) 300 D) 500 E) 1000
+4. Diyot kademesinde bir transistörde kırmızı prob 2'de sabit, siyah 1'de 512, siyah 3'te 520 okunuyor. Tip ve uçlar? 
+5. Primeri 220 V, sekonderi 22 V olan bir transformatörün türü?  A) Yükseltici B) Alçaltıcı C) Yalıtım D) Toroid E) Oto
+6. 6 V'a bağlı 100 Ω ve 200 Ω seri devrede akım kaç mA? A) 10 B) 20 C) 30 D) 60 E) 300
+7. 12 V'a paralel bağlı 60 Ω ve 40 Ω dirençlerin toplam akımı? A) 0,3 B) 0,5 C) 0,6 D) 0,25 E) 5
+8. 12 V kaynak, R1 = 100 Ω seri, R2 = R3 = 200 Ω paralel: R1 üzerindeki gerilim?
+
+## Mikrodenetleyici
+
+9. 1101 + 0111 = ? (ikilik)
+10. 2F₁₆ sayısının onluk karşılığı?
+11. 100101₂ sayısını onaltılığa çevir.
+12. Q = A·B' + A'·B ifadesi hangi kapıya eşdeğerdir ve gerçeklemek için hangi entegreler gerekir?
+13. 7408 entegresinin Vcc ve GND pinleri kaçıncı bacaklardır? 
+
+---
+
+## Cevap anahtarı
+
+| # | Cevap | Çözüm |
+|---|-------|-------|
+| 1 | **B** | 10 × 10⁴ pF = 100 000 pF = 100 nF |
+| 2 | **C** | Henri (H), sembol L |
+| 3 | **B** | (5−2)/0,015 = 200 Ω |
+| 4 | **NPN**: beyz 2, kolektör 1 (512 küçük), emiter 3 (520 büyük) | Kırmızı ortak uçta iletim → NPN; küçük değer kolektör |
+| 5 | **B** | Vs < Vp → alçaltıcı |
+| 6 | **B** | RT = 300 Ω; I = 6/300 = 20 mA |
+| 7 | **B** | RT = 60×40/100 = 24 Ω; I = 12/24 = 0,5 A |
+| 8 | **6 V** | Paralel 100 Ω → RT = 200 Ω; I = 60 mA; V = 0,06 × 100 = 6 V |
+| 9 | **10100** | 13 + 7 = 20 = 10100₂ |
+| 10 | **47** | 2×16 + 15 = 47 |
+| 11 | **25₁₆** | 0010 0101 → 2 5 |
+| 12 | **XOR**; 7404 (NOT) + 7408 (AND) + 7432 (OR) | Girişler farklıysa 1 |
+| 13 | **Vcc = 14, GND = 7** | Standart 14 bacaklı TTL |
+
+**Değerlendirme:** 12–13 doğru: sınava hazır · 9–11: lojik ve dönüşümlere tekrar · 8 ve altı: gün planını baştan uygula.
