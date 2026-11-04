@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="500" viewBox="0 0 1050 500" role="img" aria-labelledby="title desc">
+  <title id="title">Frekans ve periyot dalga şekli</title>
+  <desc id="desc">İki tam çevrimli sinüs dalgası; bir periyot T ve frekans f eşittir 1 bölü T.</desc>
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#bc5840"/></marker>
+    <style>.h{font:700 28px system-ui,sans-serif;fill:#17384f}.t{font:600 19px system-ui,sans-serif;fill:#244b64}.s{font:16px system-ui,sans-serif;fill:#557184}.axis{stroke:#8da5b3;stroke-width:2}.wave{stroke:#287fa0;stroke-width:5;fill:none}.period{stroke:#bc5840;stroke-width:3;marker-start:url(#ar);marker-end:url(#ar)}</style>
+  </defs>
+  <rect width="1050" height="500" rx="24" fill="#f7fafc"/>
+  <text x="50" y="55" class="h">Bir tam çevrim = bir periyot T</text>
+  <line x1="100" y1="270" x2="960" y2="270" class="axis"/>
+  <line x1="120" y1="120" x2="120" y2="410" class="axis"/>
+  <path class="wave" d="M120 270 C170 270 170 140 230 140 S290 270 350 270 S410 400 470 400 S530 270 590 270 S650 140 710 140 S770 270 830 270 S890 400 950 400"/>
+  <line x1="120" y1="425" x2="530" y2="425" class="period"/>
+  <text x="325" y="458" text-anchor="middle" class="t">T (saniye / ms / µs)</text>
+  <text x="145" y="155" class="s">Sinyal</text>
+  <text x="83" y="275" class="s">0</text>
+  <rect x="610" y="70" width="360" height="115" rx="18" fill="#e7f4fb"/>
+  <text x="650" y="118" class="t">Frekans: saniyedeki çevrim</text>
+  <text x="650" y="160" class="h">f = 1/T</text>
+  <rect x="610" y="200" width="360" height="115" rx="18" fill="#edf8ee"/>
+  <text x="650" y="245" class="t">Periyot: bir çevrimin süresi</text>
+  <text x="650" y="288" class="h">T = 1/f</text>
+  <text x="610" y="360" class="s">1 kHz = 1.000 Hz</text>
+  <text x="610" y="390" class="s">T = 1/1.000 s = 1 ms</text>
+</svg>

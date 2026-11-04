@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">Ohm Kanunu ve birim dönüşümleri</title>
+  <desc id="desc">Gerilim V, akım I, direnç R formül üçgeni ve akım direnç birim ölçekleri.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f0f9ff"/><stop offset="1" stop-color="#f8fafc"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#2878b8"/></marker>
+    <style>
+      .h{font:700 29px system-ui,sans-serif;fill:#12304a}.t{font:600 19px system-ui,sans-serif;fill:#23445d}.s{font:16px system-ui,sans-serif;fill:#436176}.big{font:700 35px system-ui,sans-serif;fill:#fff}.eq{font:700 25px system-ui,sans-serif;fill:#12304a}.box{fill:#fff;stroke:#cbdde9;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1000" height="620" rx="26" fill="url(#bg)"/>
+  <text x="50" y="58" class="h">OHM KANUNU: iki büyüklüğü biliyorsan üçüncüyü bul</text>
+  <rect x="50" y="88" width="420" height="390" rx="18" class="box"/>
+  <text x="83" y="128" class="t">FORMÜL ÜÇGENİ</text>
+  <path d="M260 170 105 410h310Z" fill="#e8f4fd" stroke="#2878b8" stroke-width="4"/>
+  <path d="M182 290h156" stroke="#2878b8" stroke-width="3"/>
+  <text x="260" y="255" text-anchor="middle" class="big" fill="#fff">V</text>
+  <path d="M184 174h152v105H184Z" rx="12" fill="#2878b8"/>
+  <text x="260" y="239" text-anchor="middle" class="big">V</text>
+  <text x="180" y="365" text-anchor="middle" class="eq">I</text>
+  <text x="340" y="365" text-anchor="middle" class="eq">R</text>
+  <text x="260" y="438" text-anchor="middle" class="s">V üstte, I ve R altta</text>
+  <text x="92" y="510" class="eq">V = I × R</text>
+  <text x="92" y="545" class="eq">I = V / R</text>
+  <text x="92" y="580" class="eq">R = V / I</text>
+  <rect x="500" y="88" width="450" height="390" rx="18" class="box"/>
+  <text x="535" y="128" class="t">BİRİM MERDİVENİ</text>
+  <text x="535" y="180" class="s">AKIM</text>
+  <rect x="535" y="200" width="350" height="58" rx="12" fill="#eaf7ef"/>
+  <text x="710" y="238" text-anchor="middle" class="eq">A  → ×1.000 →  mA</text>
+  <text x="710" y="285" text-anchor="middle" class="s">0,025 A = 25 mA</text>
+  <text x="535" y="340" class="s">DİRENÇ</text>
+  <rect x="535" y="358" width="350" height="58" rx="12" fill="#fff4e8"/>
+  <text x="710" y="396" text-anchor="middle" class="eq">kΩ  → ×1.000 →  Ω</text>
+  <text x="710" y="444" text-anchor="middle" class="s">4,7 kΩ = 4.700 Ω</text>
+  <text x="500" y="525" class="t">Önce temel birimde hesapla; sonda istenen birime çevir.</text>
+  <text x="500" y="565" class="s">V / Ω = A     •     V × A = W</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610" role="img" aria-labelledby="title desc">
+  <title id="title">Seri ve paralel devrede akım ve gerilim</title>
+  <desc id="desc">Solda iki dirençli seri devrede aynı akım akar ve gerilim bölünür. Sağda iki dirençli paralel devrede gerilim aynı ve akım kollara bölünür.</desc>
+  <defs>
+    <marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 9 4.5 0 9Z" fill="#e67e22"/></marker>
+    <style>
+      .h{font:700 27px system-ui,sans-serif;fill:#14334b}.t{font:600 18px system-ui,sans-serif;fill:#20465f}.s{font:16px system-ui,sans-serif;fill:#48657a}.wire{stroke:#385c73;stroke-width:5;fill:none;stroke-linecap:round;stroke-linejoin:round}.r{fill:#fff4d6;stroke:#d89724;stroke-width:3}.node{fill:#385c73}.arrow{stroke:#e67e22;stroke-width:4;marker-end:url(#a)}
+    </style>
+  </defs>
+  <rect width="1200" height="610" rx="24" fill="#f7fafc"/>
+  <rect x="30" y="30" width="550" height="550" rx="20" fill="#fff" stroke="#d7e4ec" stroke-width="2"/>
+  <rect x="620" y="30" width="550" height="550" rx="20" fill="#fff" stroke="#d7e4ec" stroke-width="2"/>
+  <text x="65" y="78" class="h">SERİ: tek yol</text>
+  <text x="655" y="78" class="h">PARALEL: ortak iki düğüm</text>
+  <!-- Series loop -->
+  <path class="wire" d="M95 180H170 M270 180H340 M440 180H500V440H95V180"/>
+  <rect x="170" y="158" width="100" height="44" rx="8" class="r"/>
+  <rect x="340" y="158" width="100" height="44" rx="8" class="r"/>
+  <text x="220" y="187" text-anchor="middle" class="t">R1</text>
+  <text x="390" y="187" text-anchor="middle" class="t">R2</text>
+  <path d="M95 315h55" class="arrow"/>
+  <text x="110" y="294" class="t">I aynı</text>
+  <text x="175" y="240" class="s">V1</text>
+  <text x="347" y="240" class="s">V2</text>
+  <circle cx="95" cy="180" r="8" class="node"/>
+  <path class="wire" d="M95 440h48m28 0h54"/>
+  <circle cx="157" cy="440" r="14" fill="#fff" stroke="#385c73" stroke-width="3"/>
+  <text x="157" y="446" text-anchor="middle" class="s">+</text>
+  <text x="85" y="474" class="s">Kaynak</text>
+  <text x="75" y="520" class="t">Rtop = R1 + R2</text>
+  <text x="75" y="550" class="s">Vtop = V1 + V2</text>
+  <!-- Parallel network -->
+  <path class="wire" d="M690 170H760 M1040 170H1110V450H690V170"/>
+  <path class="wire" d="M760 170V280 M1040 170V280 M760 280H1040"/>
+  <path class="wire" d="M760 280V390 M1040 280V390 M760 390H1040"/>
+  <rect x="872" y="258" width="58" height="44" rx="8" class="r"/>
+  <rect x="872" y="368" width="58" height="44" rx="8" class="r"/>
+  <text x="901" y="287" text-anchor="middle" class="t">R1</text>
+  <text x="901" y="397" text-anchor="middle" class="t">R2</text>
+  <path d="M705 210h42" class="arrow"/>
+  <path d="M780 310h44" class="arrow"/>
+  <path d="M780 420h44" class="arrow"/>
+  <text x="700" y="194" class="s">IT</text>
+  <text x="782" y="335" class="s">I1</text>
+  <text x="782" y="445" class="s">I2</text>
+  <circle cx="760" cy="170" r="8" class="node"/>
+  <circle cx="1040" cy="170" r="8" class="node"/>
+  <path class="wire" d="M690 450h42m28 0h60"/>
+  <circle cx="746" cy="450" r="14" fill="#fff" stroke="#385c73" stroke-width="3"/>
+  <text x="746" y="456" text-anchor="middle" class="s">+</text>
+  <text x="655" y="495" class="s">Her kolda V aynı</text>
+  <text x="655" y="530" class="t">1/Rtop = 1/R1 + 1/R2</text>
+  <text x="655" y="558" class="s">IT = I1 + I2</text>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1350" height="470" viewBox="0 0 1350 470" role="img" aria-labelledby="title desc">
+  <title id="title">Karışık devreyi adım adım sadeleştirme</title>
+  <desc id="desc">12 volt kaynağı, 20 ohm seri direnç, iki adet 20 ohm paralel direnç ve 20 ohm seri direnç sırasıyla 10 ohm paralel eşdeğere ve 50 ohm toplama dönüşür.</desc>
+  <defs>
+    <marker id="arr" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 9 4.5 0 9Z" fill="#3977a5"/></marker>
+    <style>
+      .h{font:700 24px system-ui,sans-serif;fill:#17384f}.t{font:600 17px system-ui,sans-serif;fill:#244b64}.s{font:15px system-ui,sans-serif;fill:#567083}.wire{fill:none;stroke:#47667a;stroke-width:4;stroke-linejoin:round}.r{fill:#fff0ca;stroke:#d69522;stroke-width:3}.eq{fill:#e2f2ff;stroke:#3283b8;stroke-width:3}.n{fill:#47667a}
+    </style>
+  </defs>
+  <rect width="1350" height="470" rx="24" fill="#f6fafc"/>
+  <text x="35" y="45" class="h">ÖRNEK: 12 V • R1=R2=R3=R4=20 Ω</text>
+  <rect x="25" y="70" width="400" height="360" rx="18" fill="#fff" stroke="#dae6ed" stroke-width="2"/>
+  <rect x="475" y="70" width="390" height="360" rx="18" fill="#fff" stroke="#dae6ed" stroke-width="2"/>
+  <rect x="915" y="70" width="410" height="360" rx="18" fill="#fff" stroke="#dae6ed" stroke-width="2"/>
+  <text x="50" y="112" class="t">1 · Orijinal devre</text>
+  <path class="wire" d="M55 180H102 M182 180H228 M228 180V260 M228 180H273 M353 180H383V335H55V180 M228 260H273 M353 260H383 M228 260V180"/>
+  <rect x="102" y="160" width="80" height="40" rx="6" class="r"/>
+  <rect x="273" y="160" width="80" height="40" rx="6" class="r"/>
+  <rect x="273" y="240" width="80" height="40" rx="6" class="r"/>
+  <rect x="170" y="315" width="80" height="40" rx="6" class="r"/>
+  <text x="142" y="186" text-anchor="middle" class="s">R1 20Ω</text>
+  <text x="313" y="186" text-anchor="middle" class="s">R2 20Ω</text>
+  <text x="313" y="266" text-anchor="middle" class="s">R3 20Ω</text>
+  <text x="210" y="341" text-anchor="middle" class="s">R4 20Ω</text>
+  <circle cx="228" cy="180" r="6" class="n"/><circle cx="383" cy="180" r="6" class="n"/>
+  <text x="50" y="395" class="s">Paralel R2/R3 • kaynak 12 V</text>
+  <path d="M432 245h33" stroke="#3977a5" stroke-width="4" marker-end="url(#arr)"/>
+  <text x="500" y="112" class="t">2 · Paralel grubu küçült</text>
+  <text x="500" y="165" class="s">R23 = (20×20)/(20+20)</text>
+  <text x="500" y="202" class="h">R23 = 10 Ω</text>
+  <path class="wire" d="M525 280H575 M655 280H700 M780 280H820V350H525V280"/>
+  <rect x="575" y="260" width="80" height="40" rx="6" class="r"/>
+  <rect x="700" y="260" width="80" height="40" rx="6" class="eq"/>
+  <text x="615" y="286" text-anchor="middle" class="s">R1 20Ω</text>
+  <text x="740" y="286" text-anchor="middle" class="s">10Ω</text>
+  <text x="500" y="390" class="s">Artık üç direnç seri.</text>
+  <path d="M873 245h33" stroke="#3977a5" stroke-width="4" marker-end="url(#arr)"/>
+  <text x="940" y="112" class="t">3 · Seri toplam ve akım</text>
+  <text x="950" y="166" class="s">RT = 20 + 10 + 20 = 50 Ω</text>
+  <text x="950" y="208" class="h">IT = 12/50 = 0,24 A</text>
+  <text x="950" y="255" class="s">Paralel grubun gerilimi:</text>
+  <text x="950" y="285" class="t">V23 = 0,24×10 = 2,4 V</text>
+  <text x="950" y="326" class="s">I2 = 2,4/20 = 0,12 A</text>
+  <text x="950" y="355" class="s">I3 = 2,4/20 = 0,12 A</text>
+  <text x="950" y="397" class="t">Kontrol: I2 + I3 = IT</text>
+</svg>

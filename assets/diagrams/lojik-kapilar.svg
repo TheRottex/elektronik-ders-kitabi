@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
+  <title id="title">VE ve VEYA lojik kapıları</title>
+  <desc id="desc">AND kapısı iki giriş de 1 olduğunda çıkışı 1 yapar. OR kapısı en az bir giriş 1 olduğunda çıkışı 1 yapar. Her iki doğruluk tablosu gösterilmiştir.</desc>
+  <defs>
+    <style>
+      .h{font:700 27px system-ui,sans-serif;fill:#17384f}.name{font:700 22px system-ui,sans-serif;fill:#174d79}.t{font:600 17px system-ui,sans-serif;fill:#254a63}.s{font:15px system-ui,sans-serif;fill:#526f83}.wire{stroke:#345e77;stroke-width:4;fill:none;stroke-linecap:round}.gate{fill:#e8f4fc;stroke:#2878a4;stroke-width:4}.card{fill:#fff;stroke:#d6e3eb;stroke-width:2}.head{fill:#2878a4}.row{fill:#f1f7fb}.led{fill:#79ca8a;stroke:#2d8750;stroke-width:3}
+    </style>
+  </defs>
+  <rect width="1200" height="690" rx="24" fill="#f7fafc"/>
+  <text x="45" y="55" class="h">İki girişin dört durumu: 00 • 01 • 10 • 11</text>
+  <!-- AND card -->
+  <rect x="35" y="82" width="550" height="565" rx="20" class="card"/>
+  <rect x="615" y="82" width="550" height="565" rx="20" class="card"/>
+  <text x="70" y="125" class="name">VE (AND) • Q = A · B</text>
+  <text x="650" y="125" class="name">VEYA (OR) • Q = A + B</text>
+  <!-- AND symbol and inputs -->
+  <path class="wire" d="M90 190H195M90 250H195M325 220H425"/>
+  <path class="gate" d="M195 165H255A55 55 0 0 1 255 275H195Z"/>
+  <text x="215" y="195" class="s">A</text><text x="215" y="260" class="s">B</text><text x="370" y="210" class="s">Q</text>
+  <circle cx="470" cy="220" r="24" class="led"/>
+  <text x="70" y="310" class="t">İki koşul da doğruysa çıkış 1</text>
+  <text x="70" y="340" class="s">Anahtar modeli: iki anahtar seri</text>
+  <!-- AND table -->
+  <rect x="85" y="375" width="450" height="45" rx="8" class="head"/>
+  <text x="155" y="405" text-anchor="middle" fill="#fff" class="t">A</text><text x="265" y="405" text-anchor="middle" fill="#fff" class="t">B</text><text x="420" y="405" text-anchor="middle" fill="#fff" class="t">Q</text>
+  <g class="row"><rect x="85" y="420" width="450" height="48"/><rect x="85" y="516" width="450" height="48"/></g>
+  <path d="M210 420V612M320 420V612M85 468H535M85 516H535M85 564H535M85 612H535" stroke="#d7e4eb" stroke-width="2"/>
+  <g class="t" text-anchor="middle">
+    <text x="155" y="451">0</text><text x="265" y="451">0</text><text x="420" y="451">0</text>
+    <text x="155" y="499">0</text><text x="265" y="499">1</text><text x="420" y="499">0</text>
+    <text x="155" y="547">1</text><text x="265" y="547">0</text><text x="420" y="547">0</text>
+    <text x="155" y="595">1</text><text x="265" y="595">1</text><text x="420" y="595">1</text>
+  </g>
+  <!-- OR symbol -->
+  <path class="wire" d="M680 190H770M680 250H770M930 220H1015"/>
+  <path class="gate" d="M770 165Q825 165 905 220Q825 275 770 275Q795 220 770 165Z"/>
+  <text x="785" y="195" class="s">A</text><text x="785" y="260" class="s">B</text><text x="960" y="210" class="s">Q</text>
+  <circle cx="1055" cy="220" r="24" class="led"/>
+  <text x="650" y="310" class="t">En az bir koşul doğruysa çıkış 1</text>
+  <text x="650" y="340" class="s">Anahtar modeli: iki anahtar paralel</text>
+  <!-- OR table -->
+  <rect x="665" y="375" width="450" height="45" rx="8" class="head"/>
+  <text x="735" y="405" text-anchor="middle" fill="#fff" class="t">A</text><text x="845" y="405" text-anchor="middle" fill="#fff" class="t">B</text><text x="1000" y="405" text-anchor="middle" fill="#fff" class="t">Q</text>
+  <g class="row"><rect x="665" y="420" width="450" height="48"/><rect x="665" y="516" width="450" height="48"/><rect x="665" y="564" width="450" height="48"/></g>
+  <path d="M790 420V612M900 420V612M665 468H1115M665 516H1115M665 564H1115M665 612H1115" stroke="#d7e4eb" stroke-width="2"/>
+  <g class="t" text-anchor="middle">
+    <text x="735" y="451">0</text><text x="845" y="451">0</text><text x="1000" y="451">0</text>
+    <text x="735" y="499">0</text><text x="845" y="499">1</text><text x="1000" y="499">1</text>
+    <text x="735" y="547">1</text><text x="845" y="547">0</text><text x="1000" y="547">1</text>
+    <text x="735" y="595">1</text><text x="845" y="595">1</text><text x="1000" y="595">1</text>
+  </g>
+  <text x="50" y="672" class="s">Lamba yalnızca gösterimdir; gerçek lojik kapının elektriksel seviyeleri besleme ve entegre ailesine bağlıdır.</text>
+</svg>

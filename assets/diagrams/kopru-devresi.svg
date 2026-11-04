@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-labelledby="title desc">
+  <title id="title">Wheatstone köprüsü dengesi</title>
+  <desc id="desc">Dört kenar direnci ve orta köprü direnci olan bir köprü. Sol örnek dengelidir ve orta akım sıfırdır; sağ örnekte kol oranları farklıdır ve köprü dengesizdir.</desc>
+  <defs>
+    <style>
+      .h{font:700 25px system-ui,sans-serif;fill:#17384f}.t{font:600 18px system-ui,sans-serif;fill:#244b64}.s{font:15px system-ui,sans-serif;fill:#526d80}.wire{stroke:#496a7f;stroke-width:4;fill:none;stroke-linecap:round;stroke-linejoin:round}.r{fill:#fff0ca;stroke:#d69522;stroke-width:3}.node{fill:#334f62}.bridge{stroke:#b2384b;stroke-width:5;fill:none}
+    </style>
+    <marker id="i" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#b2384b"/></marker>
+  </defs>
+  <rect width="1200" height="640" rx="24" fill="#f7fafc"/>
+  <text x="45" y="54" class="h">ÇAPRAZ KÖPRÜ: orta kolu yalnızca denge varsa silebilirsin</text>
+  <rect x="35" y="82" width="550" height="520" rx="20" fill="#fff" stroke="#d8e5ed" stroke-width="2"/>
+  <rect x="615" y="82" width="550" height="520" rx="20" fill="#fff" stroke="#d8e5ed" stroke-width="2"/>
+  <text x="65" y="125" class="t">Dengeli örnek</text>
+  <!-- balanced bridge -->
+  <path class="wire" d="M305 175V208 M305 272V320 M305 320V370 M305 434V475 M305 175H190V208 M190 272V320 M190 320H305 M305 175H420V208 M420 272V320 M420 320H305 M190 320V475H305 M420 320V475H305"/>
+  <rect x="278" y="208" width="54" height="64" rx="6" class="r"/><text x="305" y="244" text-anchor="middle" class="s">R1</text><text x="345" y="240" class="s">100Ω</text>
+  <rect x="278" y="370" width="54" height="64" rx="6" class="r"/><text x="305" y="406" text-anchor="middle" class="s">R3</text><text x="345" y="402" class="s">200Ω</text>
+  <rect x="163" y="293" width="54" height="54" rx="6" class="r"/><text x="190" y="326" text-anchor="middle" class="s">R2</text><text x="102" y="326" class="s">150Ω</text>
+  <rect x="393" y="293" width="54" height="54" rx="6" class="r"/><text x="420" y="326" text-anchor="middle" class="s">R4</text><text x="450" y="326" class="s">300Ω</text>
+  <path d="M190 320H278" class="bridge"/><path d="M332 320H420" class="bridge"/>
+  <circle cx="305" cy="175" r="7" class="node"/><circle cx="305" cy="475" r="7" class="node"/><circle cx="190" cy="320" r="7" class="node"/><circle cx="420" cy="320" r="7" class="node"/>
+  <text x="65" y="525" class="s">100/200 = 150/300 → oranlar eşit</text>
+  <text x="65" y="556" class="t">I köprü = 0 A • RT = 300 || 450 = 180Ω</text>
+  <text x="645" y="125" class="t">Dengesiz köprü</text>
+  <!-- unbalanced bridge -->
+  <path class="wire" d="M885 175V208 M885 272V320 M885 320V370 M885 434V475 M885 175H770V208 M770 272V320 M770 320H885 M885 175H1000V208 M1000 272V320 M1000 320H885 M770 320V475H885 M1000 320V475H885"/>
+  <rect x="858" y="208" width="54" height="64" rx="6" class="r"/><text x="885" y="244" text-anchor="middle" class="s">R1</text><text x="925" y="240" class="s">100Ω</text>
+  <rect x="858" y="370" width="54" height="64" rx="6" class="r"/><text x="885" y="406" text-anchor="middle" class="s">R3</text><text x="925" y="402" class="s">220Ω</text>
+  <rect x="743" y="293" width="54" height="54" rx="6" class="r"/><text x="770" y="326" text-anchor="middle" class="s">R2</text><text x="680" y="326" class="s">150Ω</text>
+  <rect x="973" y="293" width="54" height="54" rx="6" class="r"/><text x="1000" y="326" text-anchor="middle" class="s">R4</text><text x="1030" y="326" class="s">300Ω</text>
+  <path d="M770 320H858" class="bridge" marker-end="url(#i)"/><path d="M912 320H1000" class="bridge" marker-end="url(#i)"/>
+  <circle cx="885" cy="175" r="7" class="node"/><circle cx="885" cy="475" r="7" class="node"/><circle cx="770" cy="320" r="7" class="node"/><circle cx="1000" cy="320" r="7" class="node"/>
+  <text x="645" y="525" class="s">100/220 ≠ 150/300 → denge yok</text>
+  <text x="645" y="556" class="t">Köprü kolunu silemezsin; Y–Δ veya düğüm yöntemi</text>
+</svg>
