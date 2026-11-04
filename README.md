@@ -29,13 +29,21 @@ Tamamını tek uzun Markdown belgesi olarak okumak veya yazdırmak için [Birle�
 5. [Mikrodenetleyici, dijital giriş/çıkış ve LED — ek uygulama](docs/mikrodenetleyici/04-mikrodenetleyici-uygulama.md)
 6. [Sayısal mantık alıştırmaları ve cevap anahtarı](docs/mikrodenetleyici/05-alistirmalar.md)
 
-### Sınava odaklı çalışma (2. Senaryo)
+### Sınava odaklı çalışma
 
-1. [Sınav haritası, eksik listesi ve 5 günlük plan](docs/sinav/00-sinav-haritasi.md)
-2. [Elektronik: kondansatör, bobin, diyot, transistör, trafo, seri/paralel/karışık](docs/sinav/01-elektronik-sinav-calismasi.md)
-3. [Mikro: sayı sistemleri ve işlemler (ikilik/sekizlik/onaltılık)](docs/sinav/02-mikro-sayi-sistemleri-sinav.md)
-4. [Mikro: Boole, De Morgan, entegre seçimi ve breadboard devresi](docs/sinav/03-mikro-lojik-entegre-sinav.md)
-5. [Deneme sınavı ve cevap anahtarı](docs/sinav/04-deneme-sinavi-ve-cevaplar.md)
+[Hangi senaryo? — genel harita](docs/sinav/00-sinav-haritasi.md)
+
+**1. Senaryo (Elektronik: direnç dahil 8 soru)**
+1. [Harita ve 3 günlük plan](docs/sinav/senaryo-1/00-senaryo-1-haritasi.md)
+2. [Elektronik konu çalışması](docs/sinav/senaryo-1/01-elektronik-sinav-calismasi.md)
+3. [Deneme sınavı ve cevaplar](docs/sinav/senaryo-1/02-deneme-sinavi-ve-cevaplar.md)
+
+**2. Senaryo (Elektronik 8 soru + Mikrodenetleyici 5 soru)**
+1. [Harita, eksik listesi ve 5 günlük plan](docs/sinav/senaryo-2/00-senaryo-2-haritasi.md)
+2. [Elektronik: kondansatör, bobin, diyot, transistör, trafo, seri/paralel/karışık](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md)
+3. [Mikro: sayı sistemleri ve işlemler](docs/sinav/senaryo-2/02-mikro-sayi-sistemleri-sinav.md)
+4. [Mikro: Boole, De Morgan, entegre seçimi ve breadboard devresi](docs/sinav/senaryo-2/03-mikro-lojik-entegre-sinav.md)
+5. [Deneme sınavı ve cevap anahtarı](docs/sinav/senaryo-2/04-deneme-sinavi-ve-cevaplar.md)
 
 ## Görsel dizini
 

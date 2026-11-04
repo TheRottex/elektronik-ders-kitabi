@@ -117,7 +117,7 @@ Aynı değerli n direnç: RT = R / n.
 4. VR1 = 0,03 × 200 = 6 V; paralel grupta kalan **6 V**
 5. I2 = 6/300 = 20 mA, I3 = 6/600 = 10 mA; toplam 30 mA ✔
 
-Çapraz bağlı görünen devreleri sadeleştirme için bkz. [Köprü ve yıldız-üçgen](../elektronik/05-kopru-yildiz-ucgen.md). Devre çizimi: seri/paralel şemalar için [Seri-paralel bölümü](../elektronik/04-seri-paralel-karisik.md).
+Çapraz bağlı görünen devreleri sadeleştirme için bkz. [Köprü ve yıldız-üçgen](../../elektronik/05-kopru-yildiz-ucgen.md). Devre çizimi: seri/paralel şemalar için [Seri-paralel bölümü](../../elektronik/04-seri-paralel-karisik.md).
 
 ## 9. Kendin çöz
 

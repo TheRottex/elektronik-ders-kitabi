@@ -19,11 +19,15 @@
 - [Mikrodenetleyici: NOT, NAND, NOR, XOR ve XNOR Kapıları](#chapter-13)
 - [Mikrodenetleyici: Mikrodenetleyici, HIGH/LOW, Buton ve LED](#chapter-14)
 - [Mikrodenetleyici: Sayı Sistemleri ve Lojik Kapılar — Alıştırmalar](#chapter-15)
-- [Sınava Odaklı Çalışma: Sınava Odaklı Çalışma — 2. Senaryo Yol Haritası](#chapter-16)
-- [Sınava Odaklı Çalışma: Elektronik Uygulamaları — Sınav Çalışması](#chapter-17)
-- [Sınava Odaklı Çalışma: Mikrodenetleyici — Sayı Sistemleri ve Sayısal İşlemler (3 soru)](#chapter-18)
-- [Sınava Odaklı Çalışma: Mikrodenetleyici — Lojik Kapılar ve Entegre ile Devre Kurma (2 soru)](#chapter-19)
-- [Sınava Odaklı Çalışma: Deneme Sınavı ve Cevap Anahtarı](#chapter-20)
+- [Sınava Odaklı Çalışma: Sınava Odaklı Çalışma — Hangi Senaryo?](#chapter-16)
+- [Sınava Odaklı Çalışma: Sınava Odaklı Çalışma — 1. Senaryo (Elektronik Uygulamaları)](#chapter-17)
+- [Sınava Odaklı Çalışma: Elektronik Uygulamaları — 1. Senaryo Sınav Çalışması](#chapter-18)
+- [Sınava Odaklı Çalışma: 1. Senaryo Deneme Sınavı — Elektronik Uygulamaları (8 soru)](#chapter-19)
+- [Sınava Odaklı Çalışma: Sınava Odaklı Çalışma — 2. Senaryo (Elektronik + Mikrodenetleyici)](#chapter-20)
+- [Sınava Odaklı Çalışma: Elektronik Uygulamaları — Sınav Çalışması](#chapter-21)
+- [Sınava Odaklı Çalışma: Mikrodenetleyici — Sayı Sistemleri ve Sayısal İşlemler (3 soru)](#chapter-22)
+- [Sınava Odaklı Çalışma: Mikrodenetleyici — Lojik Kapılar ve Entegre ile Devre Kurma (2 soru)](#chapter-23)
+- [Sınava Odaklı Çalışma: Deneme Sınavı ve Cevap Anahtarı](#chapter-24)
 
 
 ---
@@ -1189,7 +1193,169 @@ Yalnız son satırda üç girişin hepsi 1; dolayısıyla yalnız `111` satırı
 
 <a id="chapter-16"></a>
 
-# Sınava Odaklı Çalışma — 2. Senaryo Yol Haritası
+# Sınava Odaklı Çalışma — Hangi Senaryo?
+
+İki ders için sınav senaryoları farklı soru dağılımı verir. Kendi senaryona göre bölümü seç:
+
+| Senaryo | Elektronik Uygulamaları | Mikrodenetleyici |
+|---------|-------------------------|------------------|
+| **1. Senaryo** | [Harita ve plan](docs/sinav/senaryo-1/00-senaryo-1-haritasi.md) · [Konu çalışması](docs/sinav/senaryo-1/01-elektronik-sinav-calismasi.md) · [Deneme](docs/sinav/senaryo-1/02-deneme-sinavi-ve-cevaplar.md) | Tablo henüz eklenmedi (bkz. [harita](docs/sinav/senaryo-1/00-senaryo-1-haritasi.md)) |
+| **2. Senaryo** | [Harita ve plan](docs/sinav/senaryo-2/00-senaryo-2-haritasi.md) · [Konu çalışması](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) | [Sayı sistemleri](docs/sinav/senaryo-2/02-mikro-sayi-sistemleri-sinav.md) · [Lojik ve entegre](docs/sinav/senaryo-2/03-mikro-lojik-entegre-sinav.md) · [Deneme (iki ders)](docs/sinav/senaryo-2/04-deneme-sinavi-ve-cevaplar.md) |
+
+**Fark nedir?** Elektronik için 1. Senaryo 8 soruda **direnç dahil** (kondansatör, bobin, diyot, transistör, transformatör, seri, paralel); 2. Senaryo dirençsiz ama **seri-paralel (karışık)** devre içerir.
+
+
+---
+
+<a id="chapter-17"></a>
+
+# Sınava Odaklı Çalışma — 1. Senaryo (Elektronik Uygulamaları)
+
+Ankara İli Bilişim Teknolojileri Alanı, 11-12. sınıf seçmeli Elektronik Uygulamaları konu soru dağılım tablosu — **1. Senaryo: 8 soru**.
+
+| Öğrenme birimi | Kazanım | Soru | Çalışma |
+|----------------|---------|:----:|---------|
+| Analog devre elemanları | Devreye göre **direnç** seçimi | 1 | [§1](docs/sinav/senaryo-1/01-elektronik-sinav-calismasi.md) |
+| | Devreye göre **kondansatör** seçimi | 1 | [§2](docs/sinav/senaryo-1/01-elektronik-sinav-calismasi.md) |
+| | Devreye göre **bobin** seçimi | 1 | [§3](docs/sinav/senaryo-1/01-elektronik-sinav-calismasi.md) |
+| | Devreye göre **diyot** seçimi | 1 | [§4](docs/sinav/senaryo-1/01-elektronik-sinav-calismasi.md) |
+| | Devreye göre **transistör** seçimi | 1 | [§5](docs/sinav/senaryo-1/01-elektronik-sinav-calismasi.md) |
+| | Devreye göre **transformatör** seçimi | 1 | [§6](docs/sinav/senaryo-1/01-elektronik-sinav-calismasi.md) |
+| Temel devre uygulamaları | **Seri** devre kurma | 1 | [§7](docs/sinav/senaryo-1/01-elektronik-sinav-calismasi.md) |
+| | **Paralel** devre kurma | 1 | [§8](docs/sinav/senaryo-1/01-elektronik-sinav-calismasi.md) |
+
+1. Senaryoda **karışık devre sorusu yoktur**; ama paralel/seri bilgisi karışık devreler için de temeldir.
+
+## 3 günlük plan
+
+| Gün | Yap | Ölçüt |
+|-----|-----|-------|
+| 1 | §1 direnç + §2 kondansatör + §3 bobin | Renk kodu ve kondansatör kodu okuyorum |
+| 2 | §4 diyot + §5 transistör + §6 trafo | Sembol, uç ve sağlamlık testini söyleyebiliyorum |
+| 3 | §7–§8 + [deneme sınavı](docs/sinav/senaryo-1/02-deneme-sinavi-ve-cevaplar.md) | 8 sorudan en az 7 doğru |
+
+## Mikrodenetleyici — 1. Senaryo
+
+Mikrodenetleyici dersinin 1. Senaryo konu-soru tablosu henüz eklenmedi. Tabloyu paylaşınca bu bölüme ayrı çalışma dosyası eklenecek. O zamana kadar ortak kaynaklar: [sayı sistemleri](docs/sinav/senaryo-2/02-mikro-sayi-sistemleri-sinav.md) ve [lojik/entegre](docs/sinav/senaryo-2/03-mikro-lojik-entegre-sinav.md).
+
+
+---
+
+<a id="chapter-18"></a>
+
+# Elektronik Uygulamaları — 1. Senaryo Sınav Çalışması
+
+Kaynak: Elektronik Uygulamaları PDF s.18–67. Konu anlatımlarının bir kısmı [2. Senaryo çalışmasıyla](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) ortaktır; burada yalnızca 1. Senaryoya özgü **direnç** ayrıntılı, diğerleri sınav özetidir.
+
+## 1. Direnç (1 soru)
+
+**Ne işe yarar?** Akıma karşı zorluk gösterir; akımı sınırlar, gerilim böler. Harf **R**, birim **ohm (Ω)**.
+
+**4 bantlı renk kodu:** 1. bant 1. rakam · 2. bant 2. rakam · 3. bant çarpan (sıfır sayısı) · 4. bant tolerans.
+
+| Renk | Rakam | Renk | Rakam |
+|------|:-----:|------|:-----:|
+| Siyah | 0 | Mavi | 6 |
+| Kahverengi | 1 | Mor | 7 |
+| Kırmızı | 2 | Gri | 8 |
+| Turuncu | 3 | Beyaz | 9 |
+| Sarı | 4 | Altın | tolerans ±%5 (çarpan ×0,1) |
+| Yeşil | 5 | Gümüş | tolerans ±%10 (çarpan ×0,01) |
+
+**Örnek (kitaptaki 12. soru):** 4700 Ω ±%5 → 47 × 100 → sarı (4) – mor (7) – **kırmızı** (×100) – altın. Doğru şık: **Sarı-mor-kırmızı-altın**.
+**Örnek:** kahverengi-siyah-turuncu-altın = 10 × 1000 = 10 kΩ ±%5.
+
+**Direnç seçerken üç ölçüt:** değer (Ω), **tolerans** (%) ve **güç** (W: 1/8, 1/4, 1/2 W…). Güç için `P = I² × R` ya da `P = V × I` hesaplanır, direnç gücü hesaplanandan büyük seçilir (çoğu kez 2 katı güvenli).
+Örnek: 10 Ω dirençten 0,2 A geçerse P = 0,04 × 10 = 0,4 W → 1/2 W direnç yeter, ama güvenlik payı için **1 W** seçilir.
+
+| Direnç türü | Özellik |
+|-------------|---------|
+| Sabit direnç | Değeri değişmez |
+| Potansiyometre | Ayarlı, 3 bacak, el ile ayarlanan (ses, parlaklık) |
+| Trimpot | Ayarlı, küçük; devre kurulurken tornavidayla bir kez ayarlanır |
+| Reosta | Yüksek akım için ayarlı direnç |
+| LDR | Işık şiddetine göre değeri değişen (ışıkta azalır) |
+| NTC | Sıcaklık **arttıkça** direnci **azalır** |
+| PTC | Sıcaklık arttıkça direnci artar |
+
+## 2. Kondansatör (1 soru)
+
+Birim F; 1 µF = 1000 nF; 1 nF = 1000 pF. Kod: ilk iki rakam + üçüncü rakam kadar sıfır (pF): **105 = 1 µF**, 104 = 100 nF, 103 = 10 nF, 102 = 1 nF, 473 = 47 nF. Elektrolitik **kutuplu**: eksi bacak işaretli, çalışma gerilimi devre geriliminden büyük. Mika kondansatörün dielektriği **mika**. Ayrıntı: [Kondansatör](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md).
+
+## 3. Bobin (1 soru)
+
+Birim **henri (H)**, harf **L**. DC'de akıma neredeyse kısa devre, AC'de frekansla artan `XL = 2πfL`. Çeşitler: hava, ferit, demir, toroid, SMD. LCR metre ile ölçülür. Ayrıntı: [Bobin](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md).
+
+## 4. Diyot (1 soru)
+
+İki bacak: anot (+) ve katot (−, çizgili uç). Türler: kristal, zener, Şotki, LED, IR LED (görünmez kızılötesi), varikap, köprü. LED direnci `Rs = (Vcc − Vd)/Id`. Test: diyot kademesi, kırmızı anot / siyah katot → değer; ters → "1" (OL). Ayrıntı: [Diyot](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md).
+
+## 5. Transistör (1 soru)
+
+C, B, E; NPN ve PNP. NPN'de B ve C +, E −. Anahtar: doyum (C–E ≈ 0 V) ve kesim (akım 0). Testte kırmızı prob ortak ve değer varsa NPN; küçük değer kolektör, büyük değer emiter. Ayrıntı: [Transistör](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md).
+
+## 6. Transformatör (1 soru)
+
+İki bobin + nüve, yalnız AC. `Vp/Vs = Np/Ns`. Türler: alçaltıcı, yükseltici, oto, yalıtım (E1 = E2), toroidal, yüksek frekans, hat. Ayrıntı: [Transformatör](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md).
+
+## 7. Seri devre (1 soru)
+
+Akım aynı, gerilim paylaşılır: `RT = R1 + R2 + …`, `I = V/RT`, `VRn = I × Rn`.
+Örnek: 12 V, 100 Ω + 220 Ω + 680 Ω → RT = 1000 Ω, I = 12 mA, gerilimler 1,2 V + 2,64 V + 8,16 V = 12 V ✔. Ampermetre **seri**, voltmetre **paralel**.
+
+## 8. Paralel devre (1 soru)
+
+Gerilim aynı, akım paylaşılır: `1/RT = 1/R1 + 1/R2`, iki dirençte `RT = R1·R2/(R1+R2)`, `I = I1 + I2`.
+Örnek: 12 V, 400 Ω ∥ 600 Ω → RT = 240 Ω, I1 = 30 mA, I2 = 20 mA, I = 50 mA ✔. Aynı değerli n direnç: R/n.
+
+## 9. Kendin çöz
+
+1. Kahverengi-yeşil-kırmızı-gümüş direncin değeri ve toleransı? 2. 220 Ω'dan 0,1 A geçerse güç? 3. 681 kodlu kondansatör? 4. 6 V'a 30 Ω + 60 Ω seri: I? 5. 12 V'a 30 Ω ∥ 60 Ω: RT ve I?
+
+**Cevaplar:** 1) 15 × 100 = 1,5 kΩ, ±%10. 2) P = 0,01 × 220 = 2,2 W. 3) 68 × 10 = 680 pF. 4) 6/90 ≈ 66,7 mA. 5) RT = 20 Ω, I = 0,6 A.
+
+
+---
+
+<a id="chapter-19"></a>
+
+# 1. Senaryo Deneme Sınavı — Elektronik Uygulamaları (8 soru)
+
+Gerçek sınav değildir. Önce cevaplara bakmadan çöz.
+
+1. 2,2 kΩ ±%5 direncin renk kodu hangisidir? A) Kırmızı-kırmızı-kırmızı-altın B) Kırmızı-kırmızı-kahverengi-altın C) Turuncu-turuncu-kırmızı-altın D) Kırmızı-kırmızı-turuncu-gümüş E) Kahverengi-siyah-kırmızı-altın
+2. Üzerinde 103 yazan kondansatör? A) 103 pF B) 10 nF C) 100 nF D) 1 µF E) 0,1 nF
+3. Bobinin harfi ve birimi? A) C – F B) L – H C) R – Ω D) V – A E) T – s
+4. IR LED hangi ışığı yayar? A) Mor ötesi B) Kızılötesi (görünmez) C) Yeşil D) Beyaz E) Kırmızı (görünür)
+5. NPN transistörün doğru kutuplamasında hangisi doğrudur? A) B ve C −, E + B) B ve C +, E − C) B +, C −, E + D) Hepsi + E) Hepsi −
+6. 220 V'u 12 V'a düşüren trafonun türü? A) Yükseltici B) Alçaltıcı C) Yalıtım D) Hat E) Oto
+7. 24 V'a bağlı 100 Ω, 200 Ω, 300 Ω seri; devre akımı kaç mA? A) 40 B) 60 C) 80 D) 120 E) 240
+8. 12 V'a bağlı 30 Ω ve 60 Ω paralel; toplam akım kaç A? A) 0,2 B) 0,4 C) 0,6 D) 1,2 E) 2
+
+---
+
+## Cevap anahtarı
+
+| # | Cevap | Çözüm |
+|---|-------|-------|
+| 1 | **A** | 22 × 100: kırmızı-kırmızı-kırmızı, altın = %5 |
+| 2 | **B** | 10 × 10³ pF = 10 nF |
+| 3 | **B** | Henri (H), harf L |
+| 4 | **B** | IR = görünmez kızılötesi |
+| 5 | **B** | NPN: B ve C artıya, E eksiye |
+| 6 | **B** | Vs < Vp: alçaltıcı |
+| 7 | **A** | RT = 600 Ω; I = 24/600 = 40 mA |
+| 8 | **C** | RT = 30×60/90 = 20 Ω; I = 12/20 = 0,6 A |
+
+
+**Değerlendirme:** 7–8 doğru: hazırsın · 5–6: zayıf konulara dön · 4 ve altı: planı baştan uygula.
+
+
+---
+
+<a id="chapter-20"></a>
+
+# Sınava Odaklı Çalışma — 2. Senaryo (Elektronik + Mikrodenetleyici)
 
 Bu bölüm, iki ders için verilen **2. Senaryo** sınav tablolarına göre hazırlandı. Amaç: sınavda soru çıkacak konulardan **atlanmış ya da yüzeysel kalmış** yerleri kapatmak ve her konuda "çıkabilecek soru tipini" çözerek görmek.
 
@@ -1200,22 +1366,22 @@ Bu bölüm, iki ders için verilen **2. Senaryo** sınav tablolarına göre haz�
 | Konu | Soru sayısı | Çalışma dosyası |
 |------|:-----------:|-----------------|
 | Direnç | 0 | (sınavda yok; yine de [direnç özeti](docs/elektronik/02-devre-elemanlari.md) seri/paralel için gerekir) |
-| Kondansatör | 1 | [Elektronik sınav çalışması §1](docs/sinav/01-elektronik-sinav-calismasi.md) |
-| Bobin | 1 | [§2](docs/sinav/01-elektronik-sinav-calismasi.md) |
-| Diyot | 1 | [§3](docs/sinav/01-elektronik-sinav-calismasi.md) |
-| Transistör | 1 | [§4](docs/sinav/01-elektronik-sinav-calismasi.md) |
-| Transformatör | 1 | [§5](docs/sinav/01-elektronik-sinav-calismasi.md) |
-| Seri devre | 1 | [§6](docs/sinav/01-elektronik-sinav-calismasi.md) |
-| Paralel devre | 1 | [§7](docs/sinav/01-elektronik-sinav-calismasi.md) |
-| Seri-paralel (karışık) devre | 1 | [§8](docs/sinav/01-elektronik-sinav-calismasi.md) |
+| Kondansatör | 1 | [Elektronik sınav çalışması §1](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
+| Bobin | 1 | [§2](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
+| Diyot | 1 | [§3](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
+| Transistör | 1 | [§4](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
+| Transformatör | 1 | [§5](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
+| Seri devre | 1 | [§6](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
+| Paralel devre | 1 | [§7](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
+| Seri-paralel (karışık) devre | 1 | [§8](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
 
 ### Mikrodenetleyici — 5 soru
 
 | Konu | Soru sayısı | Çalışma dosyası |
 |------|:-----------:|-----------------|
-| Sayı sistemleri ile sayısal işlemler | 3 | [Sayı sistemleri sınav çalışması](docs/sinav/02-mikro-sayi-sistemleri-sinav.md) |
-| Temel lojik kapılarla mantıksal işlemler | 1 | [Lojik sınav çalışması §1–§4](docs/sinav/03-mikro-lojik-entegre-sinav.md) |
-| Temel lojik entegrelerle devre kurma | 1 | [Lojik sınav çalışması §5–§7](docs/sinav/03-mikro-lojik-entegre-sinav.md) |
+| Sayı sistemleri ile sayısal işlemler | 3 | [Sayı sistemleri sınav çalışması](docs/sinav/senaryo-2/02-mikro-sayi-sistemleri-sinav.md) |
+| Temel lojik kapılarla mantıksal işlemler | 1 | [Lojik sınav çalışması §1–§4](docs/sinav/senaryo-2/03-mikro-lojik-entegre-sinav.md) |
+| Temel lojik entegrelerle devre kurma | 1 | [Lojik sınav çalışması §5–§7](docs/sinav/senaryo-2/03-mikro-lojik-entegre-sinav.md) |
 
 ## Önceki içerikte eksik bulunan yerler (bu çalışmayla kapatıldı)
 
@@ -1238,14 +1404,14 @@ Bu bölüm, iki ders için verilen **2. Senaryo** sınav tablolarına göre haz�
 | 2 | Sayı sistemleri §4–§6 (dönüşümler) | 8 dönüşüm sorusunu 10 dakikada çözüyorum |
 | 3 | Lojik §1–§7 | Verilen ifadeden devre ve entegre listesi çıkarıyorum |
 | 4 | Elektronik §1–§5 (elemanlar) | Eleman fotoğrafı/sembolü/özelliği eşleştirebiliyorum |
-| 5 | Elektronik §6–§8 + [deneme sınavı](docs/sinav/04-deneme-sinavi-ve-cevaplar.md) | Deneme sınavında en az 10/13 |
+| 5 | Elektronik §6–§8 + [deneme sınavı](docs/sinav/senaryo-2/04-deneme-sinavi-ve-cevaplar.md) | Deneme sınavında en az 10/13 |
 
 > Not: Sınav kazanımları tablodaki konu başlıklarıdır; soru **tipleri** kaynak kitabın "Ölçme ve Değerlendirme" sayfalarından (Doğru/Yanlış, boşluk doldurma, 5 şıklı test) ve uygulama bölümlerinden esinlenerek hazırlandı. Gerçek sınav soruları değildir.
 
 
 ---
 
-<a id="chapter-17"></a>
+<a id="chapter-21"></a>
 
 # Elektronik Uygulamaları — Sınav Çalışması
 
@@ -1377,7 +1543,7 @@ Aynı değerli n direnç: RT = R / n.
 
 ---
 
-<a id="chapter-18"></a>
+<a id="chapter-22"></a>
 
 # Mikrodenetleyici — Sayı Sistemleri ve Sayısal İşlemler (3 soru)
 
@@ -1497,7 +1663,7 @@ Toplam 8 veya üzeriyse 8'e böl: kalan yazılır, bölüm elde olur.
 
 ---
 
-<a id="chapter-19"></a>
+<a id="chapter-23"></a>
 
 # Mikrodenetleyici — Lojik Kapılar ve Entegre ile Devre Kurma (2 soru)
 
@@ -1613,7 +1779,7 @@ Adımlar:
 
 ---
 
-<a id="chapter-20"></a>
+<a id="chapter-24"></a>
 
 # Deneme Sınavı ve Cevap Anahtarı
 
