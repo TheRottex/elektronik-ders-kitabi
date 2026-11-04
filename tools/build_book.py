@@ -26,9 +26,11 @@ CHAPTERS = [
     ("Sınava Odaklı Çalışma", "docs/sinav/senaryo-1/02-deneme-sinavi-ve-cevaplar.md"),
     ("Sınava Odaklı Çalışma", "docs/sinav/senaryo-2/00-senaryo-2-haritasi.md"),
     ("Sınava Odaklı Çalışma", "docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md"),
-    ("Sınava Odaklı Çalışma", "docs/sinav/senaryo-2/02-mikro-sayi-sistemleri-sinav.md"),
-    ("Sınava Odaklı Çalışma", "docs/sinav/senaryo-2/03-mikro-lojik-entegre-sinav.md"),
     ("Sınava Odaklı Çalışma", "docs/sinav/senaryo-2/04-deneme-sinavi-ve-cevaplar.md"),
+    ("Sınava Odaklı Çalışma", "docs/sinav/mikrodenetleyici/00-mikro-sinav-haritasi.md"),
+    ("Sınava Odaklı Çalışma", "docs/sinav/mikrodenetleyici/01-sayi-sistemleri-sinav.md"),
+    ("Sınava Odaklı Çalışma", "docs/sinav/mikrodenetleyici/02-lojik-entegre-sinav.md"),
+    ("Sınava Odaklı Çalışma", "docs/sinav/mikrodenetleyici/03-deneme-sinavi-ve-cevaplar.md"),
 ]
 LINK_PATTERN = re.compile(r"(!?\[[^\]]*\]\()([^)]+)(\))")
 

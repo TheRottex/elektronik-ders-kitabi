@@ -19,15 +19,17 @@
 - [Mikrodenetleyici: NOT, NAND, NOR, XOR ve XNOR Kapıları](#chapter-13)
 - [Mikrodenetleyici: Mikrodenetleyici, HIGH/LOW, Buton ve LED](#chapter-14)
 - [Mikrodenetleyici: Sayı Sistemleri ve Lojik Kapılar — Alıştırmalar](#chapter-15)
-- [Sınava Odaklı Çalışma: Sınava Odaklı Çalışma — Hangi Senaryo?](#chapter-16)
+- [Sınava Odaklı Çalışma: Sınava Odaklı Çalışma — Hangi Sınav?](#chapter-16)
 - [Sınava Odaklı Çalışma: Sınava Odaklı Çalışma — 1. Senaryo (Elektronik Uygulamaları)](#chapter-17)
 - [Sınava Odaklı Çalışma: Elektronik Uygulamaları — 1. Senaryo Sınav Çalışması](#chapter-18)
 - [Sınava Odaklı Çalışma: 1. Senaryo Deneme Sınavı — Elektronik Uygulamaları (8 soru)](#chapter-19)
-- [Sınava Odaklı Çalışma: Sınava Odaklı Çalışma — 2. Senaryo (Elektronik + Mikrodenetleyici)](#chapter-20)
+- [Sınava Odaklı Çalışma: Sınava Odaklı Çalışma — 2. Senaryo (Elektronik Uygulamaları)](#chapter-20)
 - [Sınava Odaklı Çalışma: Elektronik Uygulamaları — Sınav Çalışması](#chapter-21)
-- [Sınava Odaklı Çalışma: Mikrodenetleyici — Sayı Sistemleri ve Sayısal İşlemler (3 soru)](#chapter-22)
-- [Sınava Odaklı Çalışma: Mikrodenetleyici — Lojik Kapılar ve Entegre ile Devre Kurma (2 soru)](#chapter-23)
-- [Sınava Odaklı Çalışma: Deneme Sınavı ve Cevap Anahtarı](#chapter-24)
+- [Sınava Odaklı Çalışma: Deneme Sınavı ve Cevap Anahtarı](#chapter-22)
+- [Sınava Odaklı Çalışma: Mikrodenetleyici — Sınav Hazırlığı (2. Senaryo)](#chapter-23)
+- [Sınava Odaklı Çalışma: Mikrodenetleyici — Sayı Sistemleri ve Sayısal İşlemler (3 soru)](#chapter-24)
+- [Sınava Odaklı Çalışma: Mikrodenetleyici — Lojik Kapılar ve Entegre ile Devre Kurma (2 soru)](#chapter-25)
+- [Sınava Odaklı Çalışma: Mikrodenetleyici Deneme Sınavı (5 soru) ve Cevaplar](#chapter-26)
 
 
 ---
@@ -1193,16 +1195,22 @@ Yalnız son satırda üç girişin hepsi 1; dolayısıyla yalnız `111` satırı
 
 <a id="chapter-16"></a>
 
-# Sınava Odaklı Çalışma — Hangi Senaryo?
+# Sınava Odaklı Çalışma — Hangi Sınav?
 
-İki ders için sınav senaryoları farklı soru dağılımı verir. Kendi senaryona göre bölümü seç:
+İki dersin sınavı ayrı hazırlanır:
 
-| Senaryo | Elektronik Uygulamaları | Mikrodenetleyici |
-|---------|-------------------------|------------------|
-| **1. Senaryo** | [Harita ve plan](docs/sinav/senaryo-1/00-senaryo-1-haritasi.md) · [Konu çalışması](docs/sinav/senaryo-1/01-elektronik-sinav-calismasi.md) · [Deneme](docs/sinav/senaryo-1/02-deneme-sinavi-ve-cevaplar.md) | Tablo henüz eklenmedi (bkz. [harita](docs/sinav/senaryo-1/00-senaryo-1-haritasi.md)) |
-| **2. Senaryo** | [Harita ve plan](docs/sinav/senaryo-2/00-senaryo-2-haritasi.md) · [Konu çalışması](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) | [Sayı sistemleri](docs/sinav/senaryo-2/02-mikro-sayi-sistemleri-sinav.md) · [Lojik ve entegre](docs/sinav/senaryo-2/03-mikro-lojik-entegre-sinav.md) · [Deneme (iki ders)](docs/sinav/senaryo-2/04-deneme-sinavi-ve-cevaplar.md) |
+## Elektronik Uygulamaları (iki senaryo)
 
-**Fark nedir?** Elektronik için 1. Senaryo 8 soruda **direnç dahil** (kondansatör, bobin, diyot, transistör, transformatör, seri, paralel); 2. Senaryo dirençsiz ama **seri-paralel (karışık)** devre içerir.
+| Senaryo | Soru | Dosyalar |
+|---------|:----:|----------|
+| **1. Senaryo** | 8 (direnç dahil, karışık devre yok) | [Harita](docs/sinav/senaryo-1/00-senaryo-1-haritasi.md) · [Konu çalışması](docs/sinav/senaryo-1/01-elektronik-sinav-calismasi.md) · [Deneme](docs/sinav/senaryo-1/02-deneme-sinavi-ve-cevaplar.md) |
+| **2. Senaryo** | 8 (dirençsiz, seri-paralel karışık devre dahil) | [Harita](docs/sinav/senaryo-2/00-senaryo-2-haritasi.md) · [Konu çalışması](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) · [Deneme](docs/sinav/senaryo-2/04-deneme-sinavi-ve-cevaplar.md) |
+
+## Mikrodenetleyici
+
+| Sınav | Soru | Dosyalar |
+|-------|:----:|----------|
+| **Sayısal işlemler (2. Senaryo)** | 5 (3 sayı sistemi, 1 lojik kapı, 1 entegre) | [Harita ve YouTube videoları](docs/sinav/mikrodenetleyici/00-mikro-sinav-haritasi.md) · [Sayı sistemleri](docs/sinav/mikrodenetleyici/01-sayi-sistemleri-sinav.md) · [Lojik ve entegre](docs/sinav/mikrodenetleyici/02-lojik-entegre-sinav.md) · [Deneme](docs/sinav/mikrodenetleyici/03-deneme-sinavi-ve-cevaplar.md) |
 
 
 ---
@@ -1234,9 +1242,9 @@ Ankara İli Bilişim Teknolojileri Alanı, 11-12. sınıf seçmeli Elektronik Uy
 | 2 | §4 diyot + §5 transistör + §6 trafo | Sembol, uç ve sağlamlık testini söyleyebiliyorum |
 | 3 | §7–§8 + [deneme sınavı](docs/sinav/senaryo-1/02-deneme-sinavi-ve-cevaplar.md) | 8 sorudan en az 7 doğru |
 
-## Mikrodenetleyici — 1. Senaryo
+## Mikrodenetleyici
 
-Mikrodenetleyici dersinin 1. Senaryo konu-soru tablosu henüz eklenmedi. Tabloyu paylaşınca bu bölüme ayrı çalışma dosyası eklenecek. O zamana kadar ortak kaynaklar: [sayı sistemleri](docs/sinav/senaryo-2/02-mikro-sayi-sistemleri-sinav.md) ve [lojik/entegre](docs/sinav/senaryo-2/03-mikro-lojik-entegre-sinav.md).
+Mikrodenetleyici sınavı ayrıdır: [Mikrodenetleyici sınav hazırlığı](docs/sinav/mikrodenetleyici/00-mikro-sinav-haritasi.md).
 
 
 ---
@@ -1355,58 +1363,35 @@ Gerçek sınav değildir. Önce cevaplara bakmadan çöz.
 
 <a id="chapter-20"></a>
 
-# Sınava Odaklı Çalışma — 2. Senaryo (Elektronik + Mikrodenetleyici)
+# Sınava Odaklı Çalışma — 2. Senaryo (Elektronik Uygulamaları)
 
-Bu bölüm, iki ders için verilen **2. Senaryo** sınav tablolarına göre hazırlandı. Amaç: sınavda soru çıkacak konulardan **atlanmış ya da yüzeysel kalmış** yerleri kapatmak ve her konuda "çıkabilecek soru tipini" çözerek görmek.
+Ankara İli Bilişim Teknolojileri Alanı, 11-12. sınıf seçmeli Elektronik Uygulamaları konu soru dağılım tablosu — **2. Senaryo: 8 soru**. (Mikrodenetleyici sınavı ayrıdır: [Mikrodenetleyici sınav hazırlığı](docs/sinav/mikrodenetleyici/00-mikro-sinav-haritasi.md).)
 
-## Sınav dağılımı
-
-### Elektronik Uygulamaları — 8 soru
-
-| Konu | Soru sayısı | Çalışma dosyası |
-|------|:-----------:|-----------------|
-| Direnç | 0 | (sınavda yok; yine de [direnç özeti](docs/elektronik/02-devre-elemanlari.md) seri/paralel için gerekir) |
-| Kondansatör | 1 | [Elektronik sınav çalışması §1](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
+| Konu | Soru | Çalışma |
+|------|:----:|---------|
+| Direnç | 0 | sınavda yok; seri/paralel için gerekir: [direnç özeti](docs/elektronik/02-devre-elemanlari.md) |
+| Kondansatör | 1 | [§1](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
 | Bobin | 1 | [§2](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
 | Diyot | 1 | [§3](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
 | Transistör | 1 | [§4](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
 | Transformatör | 1 | [§5](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
 | Seri devre | 1 | [§6](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
 | Paralel devre | 1 | [§7](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
-| Seri-paralel (karışık) devre | 1 | [§8](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) |
+| Seri-paralel (karışık) devre | 1 | [§8](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md) · çapraz devreler: [Köprü ve yıldız-üçgen](docs/elektronik/05-kopru-yildiz-ucgen.md) |
 
-### Mikrodenetleyici — 5 soru
+## Önceki içerikte eksik bulunup kapatılanlar
 
-| Konu | Soru sayısı | Çalışma dosyası |
-|------|:-----------:|-----------------|
-| Sayı sistemleri ile sayısal işlemler | 3 | [Sayı sistemleri sınav çalışması](docs/sinav/senaryo-2/02-mikro-sayi-sistemleri-sinav.md) |
-| Temel lojik kapılarla mantıksal işlemler | 1 | [Lojik sınav çalışması §1–§4](docs/sinav/senaryo-2/03-mikro-lojik-entegre-sinav.md) |
-| Temel lojik entegrelerle devre kurma | 1 | [Lojik sınav çalışması §5–§7](docs/sinav/senaryo-2/03-mikro-lojik-entegre-sinav.md) |
+Kondansatör kodu, elektrolitik kutup, bobin türleri ve XL, diyot/LED direnci, transistör testi, trafo türleri, seri/paralel/karışık için çözüm şablonu. Ayrıca [03-diger-kapilar.md](docs/mikrodenetleyici/03-diger-kapilar.md) içindeki "NAND/NOR/XOR PDF'de yok" notu düzeltildi.
 
-## Önceki içerikte eksik bulunan yerler (bu çalışmayla kapatıldı)
-
-| Eksik | Nerede kapatıldı |
-|-------|------------------|
-| İkili çıkarma (borç alma), çarpma, bölme | Sayı sistemleri §2 |
-| Sekizlik (octal) ve onaltılık (hex) toplama/çıkarma | Sayı sistemleri §3–§4 |
-| Onluk → onaltılık, onaltılık → onluk, sekizlik ↔ ikili | Sayı sistemleri §5–§6 |
-| Boole kuralları, De Morgan, ifade ↔ devre | Lojik §1–§4 |
-| Entegre seçimi (7408/7432…), pin numarası, besleme, breadboard | Lojik §5–§7 |
-| NAND/NOR/XOR "PDF'de yok" notu yanlıştı (PDF s.42–46'da var) | [03-diger-kapilar.md](docs/mikrodenetleyici/03-diger-kapilar.md) düzeltildi |
-| Kondansatör kodu, elektrolitik kutup, bobin türleri, diyot/LED direnci, transistör testi, trafo türleri | Elektronik §1–§5 |
-| Seri/paralel/karışık için tek sayfada çözüm şablonu ve doğrulama | Elektronik §6–§8 |
-
-## 5 günlük çalışma planı
+## 3 günlük plan
 
 | Gün | Yap | Ölçüt |
 |-----|-----|-------|
-| 1 | Sayı sistemleri §1–§3 + alıştırmalar | Kâğıtta ikili/oktal/hex toplama-çıkarma yapabiliyorum |
-| 2 | Sayı sistemleri §4–§6 (dönüşümler) | 8 dönüşüm sorusunu 10 dakikada çözüyorum |
-| 3 | Lojik §1–§7 | Verilen ifadeden devre ve entegre listesi çıkarıyorum |
-| 4 | Elektronik §1–§5 (elemanlar) | Eleman fotoğrafı/sembolü/özelliği eşleştirebiliyorum |
-| 5 | Elektronik §6–§8 + [deneme sınavı](docs/sinav/senaryo-2/04-deneme-sinavi-ve-cevaplar.md) | Deneme sınavında en az 10/13 |
+| 1 | §1–§3 (kondansatör, bobin, diyot) | Kod okuma, LED direnci, diyot testi |
+| 2 | §4–§5 (transistör, trafo) | Uç bulma ve trafo türlerini ayırma |
+| 3 | §6–§8 + [deneme sınavı](docs/sinav/senaryo-2/04-deneme-sinavi-ve-cevaplar.md) | 8 sorudan en az 7 doğru |
 
-> Not: Sınav kazanımları tablodaki konu başlıklarıdır; soru **tipleri** kaynak kitabın "Ölçme ve Değerlendirme" sayfalarından (Doğru/Yanlış, boşluk doldurma, 5 şıklı test) ve uygulama bölümlerinden esinlenerek hazırlandı. Gerçek sınav soruları değildir.
+> Soru tipleri kaynak kitabın "Ölçme ve Değerlendirme" sayfalarından esinlenerek hazırlandı; gerçek sınav soruları değildir.
 
 
 ---
@@ -1545,6 +1530,101 @@ Aynı değerli n direnç: RT = R / n.
 
 <a id="chapter-22"></a>
 
+# Deneme Sınavı ve Cevap Anahtarı
+
+Gerçek sınav değildir; Elektronik Uygulamaları 2. Senaryo dağılımına göre hazırlandı (8 soru). Mikrodenetleyici denemesi ayrıdır: [Mikrodenetleyici deneme](docs/sinav/mikrodenetleyici/03-deneme-sinavi-ve-cevaplar.md). Önce cevaplara bakmadan çöz.
+
+## Elektronik Uygulamaları
+
+1. Üzerinde **104** yazan kondansatörün değeri nedir? A) 10 nF B) 100 nF C) 104 pF D) 1 µF E) 0,01 nF
+2. Bobinin birimi ve harfi? A) F – C B) Ω – R C) H – L D) V – U E) A – I
+3. Bir LED 5 V ile 2 V / 15 mA'de çalışacaksa seri direnç yaklaşık kaç Ω'dur? A) 100 B) 200 C) 300 D) 500 E) 1000
+4. Diyot kademesinde bir transistörde kırmızı prob 2'de sabit, siyah 1'de 512, siyah 3'te 520 okunuyor. Tip ve uçlar?
+5. Primeri 220 V, sekonderi 22 V olan bir transformatörün türü?  A) Yükseltici B) Alçaltıcı C) Yalıtım D) Toroid E) Oto
+6. 6 V'a bağlı 100 Ω ve 200 Ω seri devrede akım kaç mA? A) 10 B) 20 C) 30 D) 60 E) 300
+7. 12 V'a paralel bağlı 60 Ω ve 40 Ω dirençlerin toplam akımı? A) 0,3 B) 0,5 C) 0,6 D) 0,25 E) 5
+8. 12 V kaynak, R1 = 100 Ω seri, R2 = R3 = 200 Ω paralel: R1 üzerindeki gerilim?
+
+---
+
+## Cevap anahtarı
+
+| # | Cevap | Çözüm |
+|---|-------|-------|
+| 1 | **B** | 10 × 10⁴ pF = 100 000 pF = 100 nF |
+| 2 | **C** | Henri (H), sembol L |
+| 3 | **B** | (5−2)/0,015 = 200 Ω |
+| 4 | **NPN**: beyz 2, kolektör 1 (512 küçük), emiter 3 (520 büyük) | Kırmızı ortak uçta iletim → NPN; küçük değer kolektör |
+| 5 | **B** | Vs < Vp → alçaltıcı |
+| 6 | **B** | RT = 300 Ω; I = 6/300 = 20 mA |
+| 7 | **B** | RT = 60×40/100 = 24 Ω; I = 12/24 = 0,5 A |
+| 8 | **6 V** | Paralel 100 Ω → RT = 200 Ω; I = 60 mA; V = 0,06 × 100 = 6 V |
+
+**Değerlendirme:** 7–8 doğru: hazırsın · 5–6: zayıf konulara dön · 4 ve altı: gün planını baştan uygula.
+
+
+---
+
+<a id="chapter-23"></a>
+
+# Mikrodenetleyici — Sınav Hazırlığı (2. Senaryo)
+
+Ankara İli Bilişim Teknolojileri Alanı, 11-12. sınıf seçmeli Mikrodenetleyici dersi konu soru dağılım tablosu — **Sayısal İşlemler: 5 soru**.
+
+| Kazanım | Soru | Çalışma |
+|---------|:----:|---------|
+| 1. Sayı sistemleri ile sayısal işlemler yapar | **3** | [Sayı sistemleri](docs/sinav/mikrodenetleyici/01-sayi-sistemleri-sinav.md) |
+| 2. Temel lojik kapılarla mantıksal işlemler yapar | 1 | [Lojik §1–§4](docs/sinav/mikrodenetleyici/02-lojik-entegre-sinav.md) |
+| 3. Temel lojik entegrelerle devreler kurur | 1 | [Lojik §5–§7](docs/sinav/mikrodenetleyici/02-lojik-entegre-sinav.md) |
+
+**En değerli konu: sayı sistemleri.** Sınavın 5 sorusundan 3'ü buradan; bu yüzden önce onu çalış.
+
+## Videolarla çalışma
+
+Bağlantılar açılabildiği doğrulanmış YouTube videolarıdır (Türkçe). Videoyu izlerken kitaptaki aynı örneği kâğıtta çöz. Kanalların içeriği değişebilir; bağlantı çalışmazsa video başlığını YouTube'da ara.
+
+### Sayı sistemleri ve işlemler
+
+| Konu | Video |
+|------|-------|
+| İkilik toplama, çıkarma, çarpma, bölme (hepsi bir arada) | [OHM Akademi — Binary sayılarda toplama, çıkarma, çarpma, bölme](https://www.youtube.com/watch?v=X3O3HSy3FRI) |
+| İkilik toplama ve çıkarma (borç alma) | [Genç Mühendis — İkili sayı sisteminde toplama ve çıkarma](https://www.youtube.com/watch?v=3f-GAleCZJY) |
+| İkilik çarpma ve bölme | [Genç Mühendis — Binary çarpma ve bölme](https://www.youtube.com/watch?v=EwNb-kUofpc) |
+| Taban dönüşümleri (genel) | [Ahmetcan Bozkurt — Sayı sistemleri (dönüşümler) #2](https://www.youtube.com/watch?v=wGMgThyY9vY) |
+| Onaltılık sistem tanıtımı | [Deltanet Akademi — Hexadecimal onaltılı sayı sistemi](https://www.youtube.com/watch?v=TvyWgeQpuLU) · [Khan Academy Türkçe — On altılık sayı sistemi](https://www.youtube.com/watch?v=aPHy90kPi7Y) |
+| Onluk → onaltılık | [CircuitLab — Decimal → Hexadecimal](https://www.youtube.com/watch?v=ZyH-Ep54MSE) |
+| Onaltılık → onluk | [CircuitLab — Hexadecimal → Decimal](https://www.youtube.com/watch?v=XD4CRbr-nXE) |
+
+Sekizlik (octal) işlemleri için doğrulanmış ayrı bir video bulamadım; ikilik toplama/çıkarma videolarındaki mantık aynıdır, taban 8 olur: [Sayı sistemleri bölümündeki §3](docs/sinav/mikrodenetleyici/01-sayi-sistemleri-sinav.md).
+
+### Lojik kapılar, Boole ve entegre
+
+| Konu | Video |
+|------|-------|
+| Lojik kapılar — basit anlatım | [Ahmet Hilmi Tuna Öztürk — Lojik kapılar konu anlatımı](https://www.youtube.com/watch?v=nHRXrlI77CE) |
+| Lojik kapılar ve devreler | [Nuray Saglam Bedir — Sayısal Elektronik Ders 9](https://www.youtube.com/watch?v=_qQ9XUj0TFo) |
+| Boole cebri ve De Morgan | [NS — Lojik tasarım Ders 3](https://www.youtube.com/watch?v=6am_vFl04Gc) · [Mantık devreleri Boole cebri 5. ders](https://www.youtube.com/watch?v=omsiNDa4Yck) |
+| De Morgan örnekli | [The Engineering Tutorial — De Morgan teoremi](https://www.youtube.com/watch?v=LRdur-mbjxI) |
+| 7432 (OR) ve 7408 (AND) breadboard kurulumu | [Entegre Kafa — 7432 OR ve 7408 AND anlatımı ve devre kurulumu](https://www.youtube.com/watch?v=MQnEdxCqqyw) |
+| AND kapısı uygulaması | [Nevzat Ercan — VE lojik kapı uygulaması](https://www.youtube.com/watch?v=_La2XZ9NcoE) |
+| Breadboard üzerinde entegre ile LED yakma (inverter) | [Kadriye Nur Erman — Breadboard üzerinde entegre ile LED yakma](https://www.youtube.com/watch?v=oVmiS3t-MhU) |
+
+## 3 günlük plan
+
+| Gün | Yap | Ölçüt |
+|-----|-----|-------|
+| 1 | Sayı sistemleri §1–§4 + işlem videoları | İkilik/sekizlik/onaltılık toplama-çıkarma doğru |
+| 2 | Sayı sistemleri §5–§7 (dönüşümler) + dönüşüm videoları | 8 dönüşüm sorusunu 10 dakikada çözüyorum |
+| 3 | Lojik ve entegre §1–§8 + [deneme sınavı](docs/sinav/mikrodenetleyici/03-deneme-sinavi-ve-cevaplar.md) | Deneme sınavında 5/5 |
+
+## Ek not: Mikrodenetleyici 1. Senaryo
+Bu ders için yalnızca 2. Senaryo tablosu elinde. 1. Senaryo tablosu gelirse ayrı eklenir.
+
+
+---
+
+<a id="chapter-24"></a>
+
 # Mikrodenetleyici — Sayı Sistemleri ve Sayısal İşlemler (3 soru)
 
 Kaynak: Mikrodenetleyici PDF s.18–45. Sistemler: **ikilik (2)**, **sekizlik (8)**, **onluk (10)**, **onaltılık (16)**. Onaltılıkta rakamlar: 0–9, A=10, B=11, C=12, D=13, E=14, F=15.
@@ -1663,7 +1743,7 @@ Toplam 8 veya üzeriyse 8'e böl: kalan yazılır, bölüm elde olur.
 
 ---
 
-<a id="chapter-23"></a>
+<a id="chapter-25"></a>
 
 # Mikrodenetleyici — Lojik Kapılar ve Entegre ile Devre Kurma (2 soru)
 
@@ -1779,30 +1859,17 @@ Adımlar:
 
 ---
 
-<a id="chapter-24"></a>
+<a id="chapter-26"></a>
 
-# Deneme Sınavı ve Cevap Anahtarı
+# Mikrodenetleyici Deneme Sınavı (5 soru) ve Cevaplar
 
-Gerçek sınav değildir; 2. Senaryo dağılımına göre hazırlandı (Elektronik 8 + Mikrodenetleyici 5 = 13 soru). Önce cevaplara bakmadan çöz.
+Gerçek sınav değildir. Dağılım: 3 sayı sistemi + 1 lojik kapı + 1 entegre.
 
-## Elektronik Uygulamaları
-
-1. Üzerinde **104** yazan kondansatörün değeri nedir? A) 10 nF B) 100 nF C) 104 pF D) 1 µF E) 0,01 nF
-2. Bobinin birimi ve harfi? A) F – C B) Ω – R C) H – L D) V – U E) A – I
-3. Bir LED 5 V ile 2 V / 15 mA'de çalışacaksa seri direnç yaklaşık kaç Ω'dur? A) 100 B) 200 C) 300 D) 500 E) 1000
-4. Diyot kademesinde bir transistörde kırmızı prob 2'de sabit, siyah 1'de 512, siyah 3'te 520 okunuyor. Tip ve uçlar?
-5. Primeri 220 V, sekonderi 22 V olan bir transformatörün türü?  A) Yükseltici B) Alçaltıcı C) Yalıtım D) Toroid E) Oto
-6. 6 V'a bağlı 100 Ω ve 200 Ω seri devrede akım kaç mA? A) 10 B) 20 C) 30 D) 60 E) 300
-7. 12 V'a paralel bağlı 60 Ω ve 40 Ω dirençlerin toplam akımı? A) 0,3 B) 0,5 C) 0,6 D) 0,25 E) 5
-8. 12 V kaynak, R1 = 100 Ω seri, R2 = R3 = 200 Ω paralel: R1 üzerindeki gerilim?
-
-## Mikrodenetleyici
-
-9. 1101 + 0111 = ? (ikilik)
-10. 2F₁₆ sayısının onluk karşılığı?
-11. 100101₂ sayısını onaltılığa çevir.
-12. Q = A·B' + A'·B ifadesi hangi kapıya eşdeğerdir ve gerçeklemek için hangi entegreler gerekir?
-13. 7408 entegresinin Vcc ve GND pinleri kaçıncı bacaklardır?
+1. 1101 + 0111 = ? (ikilik)
+2. 2F₁₆ sayısının onluk karşılığı nedir?
+3. 100101₂ sayısını onaltılığa çevir; 53₁₀ sayısını ikiliye çevir.
+4. Q = A·B' + A'·B ifadesi hangi kapıya eşdeğerdir? A=1, B=1 için Q kaçtır?
+5. Q = (A+B)·(C+D) devresi için hangi entegreler gerekir ve her entegrede Vcc ile GND hangi bacaklardır?
 
 ---
 
@@ -1810,18 +1877,10 @@ Gerçek sınav değildir; 2. Senaryo dağılımına göre hazırlandı (Elektron
 
 | # | Cevap | Çözüm |
 |---|-------|-------|
-| 1 | **B** | 10 × 10⁴ pF = 100 000 pF = 100 nF |
-| 2 | **C** | Henri (H), sembol L |
-| 3 | **B** | (5−2)/0,015 = 200 Ω |
-| 4 | **NPN**: beyz 2, kolektör 1 (512 küçük), emiter 3 (520 büyük) | Kırmızı ortak uçta iletim → NPN; küçük değer kolektör |
-| 5 | **B** | Vs < Vp → alçaltıcı |
-| 6 | **B** | RT = 300 Ω; I = 6/300 = 20 mA |
-| 7 | **B** | RT = 60×40/100 = 24 Ω; I = 12/24 = 0,5 A |
-| 8 | **6 V** | Paralel 100 Ω → RT = 200 Ω; I = 60 mA; V = 0,06 × 100 = 6 V |
-| 9 | **10100** | 13 + 7 = 20 = 10100₂ |
-| 10 | **47** | 2×16 + 15 = 47 |
-| 11 | **25₁₆** | 0010 0101 → 2 5 |
-| 12 | **XOR**; 7404 (NOT) + 7408 (AND) + 7432 (OR) | Girişler farklıysa 1 |
-| 13 | **Vcc = 14, GND = 7** | Standart 14 bacaklı TTL |
+| 1 | **10100** | 13 + 7 = 20 = 10100₂ |
+| 2 | **47** | 2×16 + 15 = 47 |
+| 3 | **25₁₆** ve **110101₂** | 0010 0101 → 25; 53 = 32+16+4+1 = 110101 |
+| 4 | **XOR**; Q = **0** | girişler farklıysa 1; 1,1 aynı → 0 |
+| 5 | **7432 (OR) + 7408 (AND)** | iki OR çıkışı bir AND'e girer; **Vcc = pin 14, GND = pin 7** |
 
-**Değerlendirme:** 12–13 doğru: sınava hazır · 9–11: lojik ve dönüşümlere tekrar · 8 ve altı: gün planını baştan uygula.
+**Değerlendirme:** 5/5 hazırsın · 3–4: zayıf konuya dön · 2 ve altı: videoları izleyip planı yinele.

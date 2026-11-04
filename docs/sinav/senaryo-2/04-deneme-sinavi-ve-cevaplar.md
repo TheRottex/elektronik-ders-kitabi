@@ -1,6 +1,6 @@
 # Deneme Sınavı ve Cevap Anahtarı
 
-Gerçek sınav değildir; 2. Senaryo dağılımına göre hazırlandı (Elektronik 8 + Mikrodenetleyici 5 = 13 soru). Önce cevaplara bakmadan çöz.
+Gerçek sınav değildir; Elektronik Uygulamaları 2. Senaryo dağılımına göre hazırlandı (8 soru). Mikrodenetleyici denemesi ayrıdır: [Mikrodenetleyici deneme](../mikrodenetleyici/03-deneme-sinavi-ve-cevaplar.md). Önce cevaplara bakmadan çöz.
 
 ## Elektronik Uygulamaları
 
@@ -12,14 +12,6 @@ Gerçek sınav değildir; 2. Senaryo dağılımına göre hazırlandı (Elektron
 6. 6 V'a bağlı 100 Ω ve 200 Ω seri devrede akım kaç mA? A) 10 B) 20 C) 30 D) 60 E) 300
 7. 12 V'a paralel bağlı 60 Ω ve 40 Ω dirençlerin toplam akımı? A) 0,3 B) 0,5 C) 0,6 D) 0,25 E) 5
 8. 12 V kaynak, R1 = 100 Ω seri, R2 = R3 = 200 Ω paralel: R1 üzerindeki gerilim?
-
-## Mikrodenetleyici
-
-9. 1101 + 0111 = ? (ikilik)
-10. 2F₁₆ sayısının onluk karşılığı?
-11. 100101₂ sayısını onaltılığa çevir.
-12. Q = A·B' + A'·B ifadesi hangi kapıya eşdeğerdir ve gerçeklemek için hangi entegreler gerekir?
-13. 7408 entegresinin Vcc ve GND pinleri kaçıncı bacaklardır?
 
 ---
 
@@ -35,10 +27,5 @@ Gerçek sınav değildir; 2. Senaryo dağılımına göre hazırlandı (Elektron
 | 6 | **B** | RT = 300 Ω; I = 6/300 = 20 mA |
 | 7 | **B** | RT = 60×40/100 = 24 Ω; I = 12/24 = 0,5 A |
 | 8 | **6 V** | Paralel 100 Ω → RT = 200 Ω; I = 60 mA; V = 0,06 × 100 = 6 V |
-| 9 | **10100** | 13 + 7 = 20 = 10100₂ |
-| 10 | **47** | 2×16 + 15 = 47 |
-| 11 | **25₁₆** | 0010 0101 → 2 5 |
-| 12 | **XOR**; 7404 (NOT) + 7408 (AND) + 7432 (OR) | Girişler farklıysa 1 |
-| 13 | **Vcc = 14, GND = 7** | Standart 14 bacaklı TTL |
 
-**Değerlendirme:** 12–13 doğru: sınava hazır · 9–11: lojik ve dönüşümlere tekrar · 8 ve altı: gün planını baştan uygula.
+**Değerlendirme:** 7–8 doğru: hazırsın · 5–6: zayıf konulara dön · 4 ve altı: gün planını baştan uygula.

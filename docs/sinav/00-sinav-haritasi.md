@@ -1,10 +1,16 @@
-# Sınava Odaklı Çalışma — Hangi Senaryo?
+# Sınava Odaklı Çalışma — Hangi Sınav?
 
-İki ders için sınav senaryoları farklı soru dağılımı verir. Kendi senaryona göre bölümü seç:
+İki dersin sınavı ayrı hazırlanır:
 
-| Senaryo | Elektronik Uygulamaları | Mikrodenetleyici |
-|---------|-------------------------|------------------|
-| **1. Senaryo** | [Harita ve plan](senaryo-1/00-senaryo-1-haritasi.md) · [Konu çalışması](senaryo-1/01-elektronik-sinav-calismasi.md) · [Deneme](senaryo-1/02-deneme-sinavi-ve-cevaplar.md) | Tablo henüz eklenmedi (bkz. [harita](senaryo-1/00-senaryo-1-haritasi.md)) |
-| **2. Senaryo** | [Harita ve plan](senaryo-2/00-senaryo-2-haritasi.md) · [Konu çalışması](senaryo-2/01-elektronik-sinav-calismasi.md) | [Sayı sistemleri](senaryo-2/02-mikro-sayi-sistemleri-sinav.md) · [Lojik ve entegre](senaryo-2/03-mikro-lojik-entegre-sinav.md) · [Deneme (iki ders)](senaryo-2/04-deneme-sinavi-ve-cevaplar.md) |
+## Elektronik Uygulamaları (iki senaryo)
 
-**Fark nedir?** Elektronik için 1. Senaryo 8 soruda **direnç dahil** (kondansatör, bobin, diyot, transistör, transformatör, seri, paralel); 2. Senaryo dirençsiz ama **seri-paralel (karışık)** devre içerir.
+| Senaryo | Soru | Dosyalar |
+|---------|:----:|----------|
+| **1. Senaryo** | 8 (direnç dahil, karışık devre yok) | [Harita](senaryo-1/00-senaryo-1-haritasi.md) · [Konu çalışması](senaryo-1/01-elektronik-sinav-calismasi.md) · [Deneme](senaryo-1/02-deneme-sinavi-ve-cevaplar.md) |
+| **2. Senaryo** | 8 (dirençsiz, seri-paralel karışık devre dahil) | [Harita](senaryo-2/00-senaryo-2-haritasi.md) · [Konu çalışması](senaryo-2/01-elektronik-sinav-calismasi.md) · [Deneme](senaryo-2/04-deneme-sinavi-ve-cevaplar.md) |
+
+## Mikrodenetleyici
+
+| Sınav | Soru | Dosyalar |
+|-------|:----:|----------|
+| **Sayısal işlemler (2. Senaryo)** | 5 (3 sayı sistemi, 1 lojik kapı, 1 entegre) | [Harita ve YouTube videoları](mikrodenetleyici/00-mikro-sinav-haritasi.md) · [Sayı sistemleri](mikrodenetleyici/01-sayi-sistemleri-sinav.md) · [Lojik ve entegre](mikrodenetleyici/02-lojik-entegre-sinav.md) · [Deneme](mikrodenetleyici/03-deneme-sinavi-ve-cevaplar.md) |

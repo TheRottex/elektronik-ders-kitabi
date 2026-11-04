@@ -23,6 +23,6 @@ Ankara İli Bilişim Teknolojileri Alanı, 11-12. sınıf seçmeli Elektronik Uy
 | 2 | §4 diyot + §5 transistör + §6 trafo | Sembol, uç ve sağlamlık testini söyleyebiliyorum |
 | 3 | §7–§8 + [deneme sınavı](02-deneme-sinavi-ve-cevaplar.md) | 8 sorudan en az 7 doğru |
 
-## Mikrodenetleyici — 1. Senaryo
+## Mikrodenetleyici
 
-Mikrodenetleyici dersinin 1. Senaryo konu-soru tablosu henüz eklenmedi. Tabloyu paylaşınca bu bölüme ayrı çalışma dosyası eklenecek. O zamana kadar ortak kaynaklar: [sayı sistemleri](../senaryo-2/02-mikro-sayi-sistemleri-sinav.md) ve [lojik/entegre](../senaryo-2/03-mikro-lojik-entegre-sinav.md).
+Mikrodenetleyici sınavı ayrıdır: [Mikrodenetleyici sınav hazırlığı](../mikrodenetleyici/00-mikro-sinav-haritasi.md).

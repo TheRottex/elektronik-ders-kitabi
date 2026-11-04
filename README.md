@@ -29,21 +29,26 @@ Tamamını tek uzun Markdown belgesi olarak okumak veya yazdırmak için [Birle�
 5. [Mikrodenetleyici, dijital giriş/çıkış ve LED — ek uygulama](docs/mikrodenetleyici/04-mikrodenetleyici-uygulama.md)
 6. [Sayısal mantık alıştırmaları ve cevap anahtarı](docs/mikrodenetleyici/05-alistirmalar.md)
 
-### Sınava odaklı çalışma
+### Sınava odaklı çalışma — Elektronik Uygulamaları
 
-[Hangi senaryo? — genel harita](docs/sinav/00-sinav-haritasi.md)
+[Hangi sınav? — genel harita](docs/sinav/00-sinav-haritasi.md)
 
-**1. Senaryo (Elektronik: direnç dahil 8 soru)**
+**1. Senaryo (direnç dahil 8 soru)**
 1. [Harita ve 3 günlük plan](docs/sinav/senaryo-1/00-senaryo-1-haritasi.md)
 2. [Elektronik konu çalışması](docs/sinav/senaryo-1/01-elektronik-sinav-calismasi.md)
 3. [Deneme sınavı ve cevaplar](docs/sinav/senaryo-1/02-deneme-sinavi-ve-cevaplar.md)
 
-**2. Senaryo (Elektronik 8 soru + Mikrodenetleyici 5 soru)**
-1. [Harita, eksik listesi ve 5 günlük plan](docs/sinav/senaryo-2/00-senaryo-2-haritasi.md)
-2. [Elektronik: kondansatör, bobin, diyot, transistör, trafo, seri/paralel/karışık](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md)
-3. [Mikro: sayı sistemleri ve işlemler](docs/sinav/senaryo-2/02-mikro-sayi-sistemleri-sinav.md)
-4. [Mikro: Boole, De Morgan, entegre seçimi ve breadboard devresi](docs/sinav/senaryo-2/03-mikro-lojik-entegre-sinav.md)
-5. [Deneme sınavı ve cevap anahtarı](docs/sinav/senaryo-2/04-deneme-sinavi-ve-cevaplar.md)
+**2. Senaryo (dirençsiz, karışık devre dahil 8 soru)**
+1. [Harita ve 3 günlük plan](docs/sinav/senaryo-2/00-senaryo-2-haritasi.md)
+2. [Kondansatör, bobin, diyot, transistör, trafo, seri/paralel/karışık](docs/sinav/senaryo-2/01-elektronik-sinav-calismasi.md)
+3. [Deneme sınavı ve cevap anahtarı](docs/sinav/senaryo-2/04-deneme-sinavi-ve-cevaplar.md)
+
+### Sınava odaklı çalışma — Mikrodenetleyici (5 soru)
+
+1. [Harita, plan ve YouTube videoları](docs/sinav/mikrodenetleyici/00-mikro-sinav-haritasi.md)
+2. [Sayı sistemleri ve işlemler (3 soru)](docs/sinav/mikrodenetleyici/01-sayi-sistemleri-sinav.md)
+3. [Boole, De Morgan, entegre seçimi ve breadboard devresi (2 soru)](docs/sinav/mikrodenetleyici/02-lojik-entegre-sinav.md)
+4. [Deneme sınavı ve cevap anahtarı](docs/sinav/mikrodenetleyici/03-deneme-sinavi-ve-cevaplar.md)
 
 ## Görsel dizini
 
